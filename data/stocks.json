@@ -1,0 +1,211 @@
+[
+  {
+    "category": "Growth",
+    "ticker": "DUOL",
+    "name": "Duolingo, Inc.",
+    "price": 185.07,
+    "dcf": {
+      "conservative": "140-170",
+      "base": "180-210",
+      "aggressive": "220-260"
+    },
+    "fcfQuality": 4,
+    "roicStrength": 4,
+    "revenueDurability": 4,
+    "balanceSheetStrength": 5,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Growth",
+    "ticker": "CMG",
+    "name": "Chipotle Mexican Grill, Inc.",
+    "price": 31.57,
+    "dcf": {
+      "conservative": "25-30",
+      "base": "30-35",
+      "aggressive": "35-42"
+    },
+    "fcfQuality": 5,
+    "roicStrength": 5,
+    "revenueDurability": 4,
+    "balanceSheetStrength": 5,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Growth",
+    "ticker": "ADBE",
+    "name": "Adobe Inc.",
+    "price": 331.11,
+    "dcf": {
+      "conservative": "320-360",
+      "base": "380-420",
+      "aggressive": "440-480"
+    },
+    "fcfQuality": 5,
+    "roicStrength": 5,
+    "revenueDurability": 5,
+    "balanceSheetStrength": 4,
+    "insiderActivity": 3,
+    "valueRank": 4,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Growth",
+    "ticker": "MELI",
+    "name": "MercadoLibre, Inc.",
+    "price": 2048.89,
+    "dcf": {
+      "conservative": "1800-2100",
+      "base": "2200-2600",
+      "aggressive": "2800-3400"
+    },
+    "fcfQuality": 4,
+    "roicStrength": 4,
+    "revenueDurability": 4,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Growth",
+    "ticker": "CRWV",
+    "name": "CoreWeave, Inc.",
+    "price": 77.36,
+    "dcf": {
+      "conservative": "60-80",
+      "base": "85-110",
+      "aggressive": "120-150"
+    },
+    "fcfQuality": 2,
+    "roicStrength": 2,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Growth",
+    "ticker": "CRM",
+    "name": "Salesforce, Inc.",
+    "price": 243.66,
+    "dcf": {
+      "conservative": "240-270",
+      "base": "280-320",
+      "aggressive": "330-370"
+    },
+    "fcfQuality": 5,
+    "roicStrength": 4,
+    "revenueDurability": 5,
+    "balanceSheetStrength": 4,
+    "insiderActivity": 3,
+    "valueRank": 4,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Dividend",
+    "ticker": "SPGI",
+    "name": "S&P Global Inc.",
+    "price": 493.9,
+    "dcf": {
+      "conservative": "450-500",
+      "base": "520-570",
+      "aggressive": "590-650"
+    },
+    "fcfQuality": 5,
+    "roicStrength": 5,
+    "revenueDurability": 5,
+    "balanceSheetStrength": 4,
+    "insiderActivity": 3,
+    "valueRank": 4,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Dividend",
+    "ticker": "EFX",
+    "name": "Equifax Inc.",
+    "price": 207.15,
+    "dcf": {
+      "conservative": "200-230",
+      "base": "240-270",
+      "aggressive": "280-320"
+    },
+    "fcfQuality": 4,
+    "roicStrength": 4,
+    "revenueDurability": 4,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Growth",
+    "ticker": "NFLX",
+    "name": "Netflix, Inc.",
+    "price": 1112.17,
+    "dcf": {
+      "conservative": "900-1100",
+      "base": "1150-1350",
+      "aggressive": "1400-1700"
+    },
+    "fcfQuality": 4,
+    "roicStrength": 3,
+    "revenueDurability": 4,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Growth",
+    "ticker": "ASML",
+    "name": "ASML Holding N.V.",
+    "price": 1006.98,
+    "dcf": {
+      "conservative": "900-1050",
+      "base": "1100-1300",
+      "aggressive": "1350-1600"
+    },
+    "fcfQuality": 5,
+    "roicStrength": 5,
+    "revenueDurability": 5,
+    "balanceSheetStrength": 5,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-16"
+  },
+  {
+    "category": "Dividend",
+    "ticker": "MA",
+    "name": "Mastercard Incorporated",
+    "price": 545.73,
+    "dcf": {
+      "conservative": "500-560",
+      "base": "580-650",
+      "aggressive": "670-750"
+    },
+    "fcfQuality": 5,
+    "roicStrength": 5,
+    "revenueDurability": 5,
+    "balanceSheetStrength": 5,
+    "insiderActivity": 3,
+    "valueRank": 4,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-16"
+  }
+]

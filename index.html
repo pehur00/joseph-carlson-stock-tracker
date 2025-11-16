@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Joseph Carlson Show - Stock Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hero">
+        <div class="hero__copy">
+          <span class="eyebrow">The Joseph Carlson Show</span>
+          <h1>Stock Tracker</h1>
+          <p>
+            A comprehensive tracker for stocks featured on The Joseph Carlson Show,
+            ranking dividend and growth stocks by intrinsic value, quality metrics,
+            and expected returns.
+          </p>
+        </div>
+        <div class="hero__panel">
+          <div class="panel__metric">
+            <span>Focus</span>
+            <strong>Dividend &amp; Growth</strong>
+          </div>
+          <div class="panel__metric">
+            <span>Source</span>
+            <strong>Joseph Carlson Channel</strong>
+          </div>
+          <label class="panel__control">
+            Sort by
+            <select id="sort-select">
+              <option value="undervaluationScore" selected>Undervaluation Score</option>
+              <option value="valueRank">Value Rank</option>
+              <option value="expectedReturn">Expected Return</option>
+              <option value="price">Price</option>
+            </select>
+          </label>
+        </div>
+      </header>
+      <section class="legend">
+        <div>
+          <span class="legend__label">Risk Palette</span>
+          <div class="legend__badges">
+            <span class="badge risk-low">Low</span>
+            <span class="badge risk-moderate">Moderate</span>
+            <span class="badge risk-high">High</span>
+            <span class="badge risk-speculative">Speculative</span>
+          </div>
+        </div>
+        <div>
+          <span class="legend__label">Quality Vector</span>
+          <p>Mean of FCF Quality + ROIC Strength per ticker.</p>
+        </div>
+      </section>
+      <section class="table-container">
+        <table id="stock-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>Ticker</th>
+              <th>Name</th>
+              <th>Price</th>
+              <th>DCF Base</th>
+              <th>Value Rank</th>
+              <th>Quality (FCF + ROIC)</th>
+              <th>Undervaluation Score</th>
+              <th>Risk Level</th>
+              <th>Last Updated</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <p class="hint">Click any row to see the full factor breakdown and DCF ranges.</p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
