@@ -34,6 +34,14 @@ def main():
     print("=" * 70)
     print()
 
+    # Log runtime configuration
+    print("Runtime Configuration:")
+    print(f"  OpenRouter API Key: {'*' * 10 + os.getenv('OPENROUTER_API_KEY')[-4:] if os.getenv('OPENROUTER_API_KEY') else 'NOT SET'}")
+    print(f"  Model: {os.getenv('CREW_MODEL', 'Not specified')}")
+    print(f"  Tickers: {os.getenv('CREW_TICKERS', 'Not specified')}")
+    print("=" * 70)
+    print()
+
     # Create and run the crew
     try:
         crew = create_stock_tracker_crew()
