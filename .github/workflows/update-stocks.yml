@@ -34,7 +34,8 @@ jobs:
         working-directory: ./automation
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          OPENROUTER_MODEL: ${{ secrets.OPENROUTER_MODEL }}
+          CREW_MODEL: openai/gpt-4o-mini
+          CREW_TICKERS: DUOL,CMG,ADBE,MELI,CRWV,CRM,SPGI,EFX,NFLX,ASML,MA
         run: |
           python main.py
 
