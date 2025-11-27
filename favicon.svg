@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6001d2"/>
+      <stop offset="100%" style="stop-color:#4c01a6"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="32" height="32" rx="6" fill="url(#bg)"/>
+  <!-- Stock chart line going up -->
+  <polyline 
+    points="5,22 10,18 14,20 19,12 24,14 27,8" 
+    fill="none" 
+    stroke="#fff" 
+    stroke-width="2.5" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"/>
+  <!-- Arrow head pointing up -->
+  <polyline 
+    points="24,8 27,8 27,11" 
+    fill="none" 
+    stroke="#fff" 
+    stroke-width="2.5" 
+    stroke-linecap="round" 
+    stroke-linejoin="round"/>
+  <!-- Small YouTube play hint -->
+  <circle cx="8" cy="26" r="3" fill="#ff0000"/>
+  <polygon points="7,24.5 7,27.5 9.5,26" fill="#fff"/>
+</svg>
