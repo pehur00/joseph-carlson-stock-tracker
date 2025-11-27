@@ -854,3 +854,77 @@ async function refreshLivePrices(stocks) {
   renderTable();
   renderChannelStats();
 }
+
+// Showcase Carousel
+let showcaseModalEl;
+let currentSlide = 0;
+const totalSlides = 5;
+
+function initShowcase() {
+  showcaseModalEl = document.getElementById('showcase-modal');
+  const showcaseBtn = document.getElementById('showcase-btn');
+  const showcaseCloseBtn = showcaseModalEl?.querySelector('.modal__close');
+  const showcaseBackdrop = showcaseModalEl?.querySelector('.modal__backdrop');
+  const showcaseCloseAction = document.getElementById('showcase-close-btn');
+  const prevBtn = document.getElementById('showcase-prev');
+  const nextBtn = document.getElementById('showcase-next');
+  const dots = document.querySelectorAll('.showcase__dot');
+
+  showcaseBtn?.addEventListener('click', openShowcase);
+  showcaseCloseBtn?.addEventListener('click', closeShowcase);
+  showcaseBackdrop?.addEventListener('click', closeShowcase);
+  showcaseCloseAction?.addEventListener('click', closeShowcase);
+
+  prevBtn?.addEventListener('click', () => goToSlide(currentSlide - 1));
+  nextBtn?.addEventListener('click', () => goToSlide(currentSlide + 1));
+
+  dots.forEach((dot) => {
+    dot.addEventListener('click', () => {
+      const slideIndex = parseInt(dot.dataset.slide, 10);
+      goToSlide(slideIndex);
+    });
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (showcaseModalEl && !showcaseModalEl.classList.contains('hidden')) {
+      if (event.key === 'Escape') closeShowcase();
+      if (event.key === 'ArrowLeft') goToSlide(currentSlide - 1);
+      if (event.key === 'ArrowRight') goToSlide(currentSlide + 1);
+    }
+  });
+}
+
+function openShowcase() {
+  if (!showcaseModalEl) return;
+  currentSlide = 0;
+  updateSlide();
+  showcaseModalEl.classList.remove('hidden');
+}
+
+function closeShowcase() {
+  if (!showcaseModalEl) return;
+  showcaseModalEl.classList.add('hidden');
+}
+
+function goToSlide(index) {
+  if (index < 0) index = totalSlides - 1;
+  if (index >= totalSlides) index = 0;
+  currentSlide = index;
+  updateSlide();
+}
+
+function updateSlide() {
+  const slides = document.querySelectorAll('.showcase__slide');
+  const dots = document.querySelectorAll('.showcase__dot');
+
+  slides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === currentSlide);
+  });
+
+  dots.forEach((dot, i) => {
+    dot.classList.toggle('active', i === currentSlide);
+  });
+}
+
+// Initialize showcase on DOMContentLoaded
+window.addEventListener('DOMContentLoaded', initShowcase);
