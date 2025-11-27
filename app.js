@@ -41,7 +41,28 @@ let modalCloseEl;
 let modalBackdropEl;
 let livePriceStore = {};
 let currentSortKey = 'undervaluationScore';
+let currentSortDirection = 'desc'; // 'asc' or 'desc'
 let currentSourceFilter = 'all';
+
+// Define sort configurations for each column
+const sortConfig = {
+  category: { type: 'string', defaultDir: 'asc' },
+  ticker: { type: 'string', defaultDir: 'asc' },
+  name: { type: 'string', defaultDir: 'asc' },
+  source: { type: 'string', defaultDir: 'asc' },
+  recommendedDate: { type: 'date', defaultDir: 'desc' },
+  initialPrice: { type: 'number', defaultDir: 'desc' },
+  livePrice: { type: 'number', defaultDir: 'desc' },
+  pnlPercent: { type: 'number', defaultDir: 'desc' },
+  dcfBase: { type: 'number', defaultDir: 'desc' },
+  valueRank: { type: 'number', defaultDir: 'desc' },
+  qualitySummary: { type: 'number', defaultDir: 'desc' },
+  undervaluationScore: { type: 'number', defaultDir: 'desc' },
+  riskLevel: { type: 'risk', defaultDir: 'asc' },
+  lastUpdated: { type: 'date', defaultDir: 'desc' },
+};
+
+const riskOrder = { 'Low': 1, 'Moderate': 2, 'High': 3, 'Speculative': 4 };
 
 function toHundredScale(score) {
   return score * 20;
@@ -132,25 +153,67 @@ function deriveModels(stock) {
   };
 }
 
-function renderTable(sortKey = currentSortKey) {
+function renderTable(sortKey = currentSortKey, sortDirection = currentSortDirection) {
   currentSortKey = sortKey;
+  currentSortDirection = sortDirection;
   expandedStockKey = null;
   let viewModels = stockData.map(deriveModels);
+  
+  // Add dcfBase as numeric value for sorting
+  viewModels = viewModels.map(vm => ({
+    ...vm,
+    dcfBase: parseFloat(String(vm.dcf.base).replace(/[$,]/g, '')) || 0
+  }));
   
   // Apply source filter
   if (currentSourceFilter !== 'all') {
     viewModels = viewModels.filter(stock => stock.source === currentSourceFilter);
   }
   
+  // Get sort configuration for this key
+  const config = sortConfig[sortKey] || { type: 'string', defaultDir: 'asc' };
+  const dirMultiplier = sortDirection === 'asc' ? 1 : -1;
+  
   viewModels.sort((a, b) => {
-    const dir = sortKey === 'price' ? 1 : -1; // price is ascending, scores descending
-    const aVal = a[sortKey];
-    const bVal = b[sortKey];
-    if (aVal === bVal) {
+    let aVal = a[sortKey];
+    let bVal = b[sortKey];
+    
+    // Handle null/undefined values - push them to the end
+    if (aVal == null && bVal == null) return 0;
+    if (aVal == null) return 1;
+    if (bVal == null) return -1;
+    
+    let comparison = 0;
+    
+    switch (config.type) {
+      case 'string':
+        comparison = String(aVal).localeCompare(String(bVal));
+        break;
+      case 'number':
+        comparison = (Number(aVal) || 0) - (Number(bVal) || 0);
+        break;
+      case 'date':
+        const dateA = aVal ? new Date(aVal).getTime() : 0;
+        const dateB = bVal ? new Date(bVal).getTime() : 0;
+        comparison = dateA - dateB;
+        break;
+      case 'risk':
+        comparison = (riskOrder[aVal] || 5) - (riskOrder[bVal] || 5);
+        break;
+      default:
+        comparison = String(aVal).localeCompare(String(bVal));
+    }
+    
+    // If equal, secondary sort by ticker
+    if (comparison === 0) {
       return a.ticker.localeCompare(b.ticker);
     }
-    return dir * (aVal - bVal);
+    
+    return dirMultiplier * comparison;
   });
+  
+  // Update header sort indicators
+  updateSortIndicators(sortKey, sortDirection);
 
   tableBody.innerHTML = '';
   viewModels.forEach((stock) => {
@@ -184,6 +247,43 @@ function renderTable(sortKey = currentSortKey) {
       appendDetailRow(stock, row);
     }
   });
+}
+
+function updateSortIndicators(sortKey, sortDirection) {
+  const headers = document.querySelectorAll('#stock-table thead th.sortable');
+  headers.forEach(th => {
+    const key = th.dataset.sort;
+    const icon = th.querySelector('.sort-icon');
+    th.classList.remove('sorted-asc', 'sorted-desc');
+    if (icon) {
+      if (key === sortKey) {
+        th.classList.add(sortDirection === 'asc' ? 'sorted-asc' : 'sorted-desc');
+        icon.textContent = sortDirection === 'asc' ? '▲' : '▼';
+      } else {
+        icon.textContent = '';
+      }
+    }
+  });
+}
+
+function handleHeaderSort(sortKey) {
+  const config = sortConfig[sortKey] || { type: 'string', defaultDir: 'asc' };
+  
+  // If clicking the same column, toggle direction
+  // If clicking a new column, use the default direction for that column
+  let newDirection;
+  if (sortKey === currentSortKey) {
+    newDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+  } else {
+    newDirection = config.defaultDir;
+  }
+  
+  renderTable(sortKey, newDirection);
+  
+  // Also update the dropdown if it exists
+  if (sortSelect) {
+    sortSelect.value = sortKey;
+  }
 }
 
 function renderRiskBadge(riskLevel) {
@@ -372,7 +472,19 @@ async function initUndervaluationTable() {
 
   sortSelect.addEventListener('change', (event) => {
     const sortKey = event.target.value;
-    renderTable(sortKey);
+    const config = sortConfig[sortKey] || { defaultDir: 'desc' };
+    renderTable(sortKey, config.defaultDir);
+  });
+
+  // Add click handlers for sortable table headers
+  const sortableHeaders = document.querySelectorAll('#stock-table thead th.sortable');
+  sortableHeaders.forEach(th => {
+    th.addEventListener('click', () => {
+      const sortKey = th.dataset.sort;
+      if (sortKey) {
+        handleHeaderSort(sortKey);
+      }
+    });
   });
 
   renderTable();

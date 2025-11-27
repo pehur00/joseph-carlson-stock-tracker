@@ -1,4 +1,4 @@
-/* Yahoo Finance-inspired clean design */
+it w/* Yahoo Finance-inspired clean design */
 :root {
   --color-bg: #ffffff;
   --color-surface: #f7f7f8;
@@ -320,6 +320,37 @@ body {
   color: var(--color-text-muted);
   border-bottom: 2px solid var(--color-border);
   white-space: nowrap;
+}
+
+.data-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.data-table th.sortable:hover {
+  color: var(--color-text);
+  background: rgba(96, 1, 210, 0.04);
+}
+
+.data-table th.sortable.sorted-asc,
+.data-table th.sortable.sorted-desc {
+  color: var(--color-primary);
+  background: rgba(96, 1, 210, 0.06);
+}
+
+.data-table th .sort-icon {
+  display: inline-block;
+  width: 12px;
+  font-size: 9px;
+  margin-left: 4px;
+  opacity: 0.7;
+  vertical-align: middle;
+}
+
+.data-table th.sortable:not(.sorted-asc):not(.sorted-desc):hover .sort-icon::after {
+  content: '▼';
+  opacity: 0.3;
 }
 
 .data-table th.text-right {
