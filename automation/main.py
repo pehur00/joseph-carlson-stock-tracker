@@ -182,7 +182,13 @@ def step_5_finalize():
             for entry in crew_data:
                 if isinstance(entry, dict):
                     ticker = entry.get('ticker', '').upper()
-                    source = entry.get('source', 'Unknown')
+                    source = entry.get('source')
+                    
+                    # Skip entries without a valid source (placeholder/example data)
+                    if not source or source == 'Unknown':
+                        print(f"    Skipping {ticker}: no valid source")
+                        continue
+                    
                     stock_key = f"{ticker}|{source}"
                     
                     if ticker:
