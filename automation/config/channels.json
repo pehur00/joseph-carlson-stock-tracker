@@ -47,6 +47,14 @@
       "url": "https://www.youtube.com/@FiredUpWealth/videos",
       "enabled": true,
       "description": "Financial independence and dividend investing"
+    },
+    {
+      "id": "financial-education",
+      "name": "Financial Education",
+      "handle": "@FinancialEducation",
+      "url": "https://www.youtube.com/@FinancialEducation/videos",
+      "enabled": true,
+      "description": "Stock market education and growth stock picks"
     }
   ],
   "settings": {
