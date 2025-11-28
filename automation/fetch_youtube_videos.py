@@ -53,7 +53,7 @@ KNOWN_TICKERS = {
     # US Tech/Cloud
     'NOW', 'SNOW', 'PLTR', 'DDOG', 'ZS', 'CRWD', 'NET',
     # European Stocks (common ones for dividend channels)
-    'SHEL', 'SHELL', 'RDS.A', 'RDS.B',  # Shell
+    'SHEL', 'RDS.A', 'RDS.B',  # Shell (SHEL is the main ticker)
     'BP',  # BP
     'TTE', 'TOT',  # TotalEnergies
     'EQNR',  # Equinor

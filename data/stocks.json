@@ -159,6 +159,68 @@
   },
   {
     "category": "Growth",
+    "ticker": "D",
+    "name": "D (pending analysis)",
+    "price": 0.0,
+    "initialPrice": 61.54,
+    "recommendedDate": "2025-11-26",
+    "dcf": {
+      "conservative": "0-0",
+      "base": "0-0",
+      "aggressive": "0-0"
+    },
+    "fcfQuality": 3,
+    "roicStrength": 3,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-28",
+    "source": "Everything Money",
+    "sourceDetails": {
+      "channelId": "everything-money",
+      "firstMentioned": "2025-11-26",
+      "videos": [
+        "Top 5 Most Beaten Down Stocks To Buy Now"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Growth",
+    "ticker": "META",
+    "name": "META (pending analysis)",
+    "price": 0.0,
+    "initialPrice": 613.05,
+    "recommendedDate": "2025-11-24",
+    "dcf": {
+      "conservative": "0-0",
+      "base": "0-0",
+      "aggressive": "0-0"
+    },
+    "fcfQuality": 3,
+    "roicStrength": 3,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-28",
+    "source": "CouchInvestor",
+    "sourceDetails": {
+      "channelId": "couch-investor",
+      "firstMentioned": "2025-11-24",
+      "videos": [
+        "4 No-Brainer Stocks to Buy Now"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Growth",
     "ticker": "META",
     "name": "META",
     "price": 641.1,
@@ -533,6 +595,37 @@
   },
   {
     "category": "Growth",
+    "ticker": "NVDA",
+    "name": "NVDA (pending analysis)",
+    "price": 0.0,
+    "initialPrice": 188.32,
+    "recommendedDate": "2025-10-13",
+    "dcf": {
+      "conservative": "0-0",
+      "base": "0-0",
+      "aggressive": "0-0"
+    },
+    "fcfQuality": 3,
+    "roicStrength": 3,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-28",
+    "source": "The Joseph Carlson Show",
+    "sourceDetails": {
+      "channelId": "joseph-carlson",
+      "firstMentioned": "2025-10-13",
+      "videos": [
+        "Top Five AI Stocks I'm Buying Now"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Growth",
     "ticker": "PLTR",
     "name": "PLTR",
     "price": 167.18,
@@ -565,10 +658,10 @@
   },
   {
     "category": "Growth",
-    "ticker": "SHELL",
-    "name": "SHELL (pending analysis)",
+    "ticker": "SHEL",
+    "name": "SHEL (pending analysis)",
     "price": 0.0,
-    "initialPrice": 0.0,
+    "initialPrice": 73.23,
     "recommendedDate": "2025-11-25",
     "dcf": {
       "conservative": "0-0",
