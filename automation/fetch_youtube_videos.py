@@ -25,22 +25,126 @@ CONFIG_FILE = SCRIPT_DIR / "config" / "channels.json"
 OUTPUT_FILE = SCRIPT_DIR / "output" / "youtube_videos.json"
 DATA_FILE = SCRIPT_DIR.parent / "data" / "youtube_videos.json"
 
-# Common stock tickers to look for
+# Common stock tickers to look for (US + European)
 KNOWN_TICKERS = {
+    # US Large Cap Tech
     'AAPL', 'MSFT', 'GOOGL', 'GOOG', 'AMZN', 'META', 'NVDA', 'TSLA',
+    # US Financials
     'JPM', 'V', 'MA', 'JNJ', 'UNH', 'HD', 'PG', 'KO', 'PEP', 'MCD',
     'DIS', 'NFLX', 'ADBE', 'CRM', 'PYPL', 'INTC', 'AMD', 'QCOM',
+    # US Telecom & Consumer
     'T', 'VZ', 'CMCSA', 'NKE', 'SBUX', 'WMT', 'COST', 'TGT',
     'BA', 'CAT', 'GE', 'MMM', 'IBM', 'ORCL', 'CSCO', 'TXN',
+    # US ETFs & REITs
     'O', 'SCHD', 'VTI', 'VOO', 'SPY', 'QQQ', 'VYM', 'JEPI',
     'SPGI', 'EFX', 'ASML', 'MELI', 'CMG', 'DUOL', 'CRWV',
+    # US Banks
     'BRK.A', 'BRK.B', 'WFC', 'BAC', 'GS', 'MS', 'C',
+    # US Energy
     'XOM', 'CVX', 'COP', 'SLB', 'EOG', 'MPC', 'PSX', 'VLO',
+    # US Defense
     'LMT', 'RTX', 'NOC', 'GD',
+    # US Healthcare
     'ABBV', 'MRK', 'PFE', 'LLY', 'BMY', 'GILD', 'AMGN',
+    # US Utilities
     'NEE', 'DUK', 'SO', 'D', 'AEP', 'EXC', 'SRE',
+    # US REITs
     'AMT', 'PLD', 'CCI', 'EQIX', 'SPG', 'PSA', 'DLR',
+    # US Tech/Cloud
     'NOW', 'SNOW', 'PLTR', 'DDOG', 'ZS', 'CRWD', 'NET',
+    # European Stocks (common ones for dividend channels)
+    'SHEL', 'SHELL', 'RDS.A', 'RDS.B',  # Shell
+    'BP',  # BP
+    'TTE', 'TOT',  # TotalEnergies
+    'EQNR',  # Equinor
+    'NN', 'NN.AS',  # NN Group (Netherlands)
+    'ASR', 'ASRNL',  # ASR Nederland
+    'PHIA', 'PHG',  # Philips
+    'UNA', 'UN', 'UL',  # Unilever
+    'NESN', 'NSRGY',  # Nestle
+    'NOVN', 'NVS',  # Novartis
+    'ROG', 'RHHBY',  # Roche
+    'AZN',  # AstraZeneca
+    'GSK',  # GlaxoSmithKline
+    'HSBC', 'HSBA',  # HSBC
+    'LLOY',  # Lloyds
+    'VOD',  # Vodafone
+    'BT.A', 'BT',  # BT Group
+    'SAP',  # SAP
+    'SIE', 'SIEGY',  # Siemens
+    'ALV', 'ALIZY',  # Allianz
+    'BAYN', 'BAYRY',  # Bayer
+    'BMW', 'BMWYY',  # BMW
+    'MBG', 'MBGYY',  # Mercedes-Benz
+    'VOW', 'VWAGY',  # Volkswagen
+    'TM', 'TOYOF',  # Toyota
+    'LMT', 'RTX',  # Defense
+    'AIR', 'EADSY',  # Airbus
+    'WDP',  # WDP (Belgium logistics REIT)
+    'URW',  # Unibail-Rodamco-Westfield
+    'RIO',  # Rio Tinto
+    'BHP',  # BHP Group
+    'VALE',  # Vale
+    'NEM',  # Newmont
+    'GOLD',  # Barrick Gold
+    # Additional popular dividend stocks
+    'AVGO', 'TXN', 'KLAC', 'LRCX', 'AMAT',  # Semiconductors
+    'PM', 'MO', 'BTI',  # Tobacco
+    'KMB', 'CL', 'CHD',  # Consumer staples
+    'JNJ', 'ABT', 'MDT', 'SYK', 'BDX',  # Healthcare
+    'MMM', 'HON', 'EMR', 'ITW',  # Industrials
+    'TGT', 'DLTR', 'DG',  # Retail
+}
+
+# Map company names to tickers (for title parsing)
+COMPANY_NAME_TO_TICKER = {
+    # Dutch/European
+    'SHELL': 'SHEL', 'ROYAL DUTCH SHELL': 'SHEL', 'KONINKLIJKE SHELL': 'SHEL',
+    'NN GROUP': 'NN', 'NN GROEP': 'NN',
+    'UNILEVER': 'UL', 'HEINEKEN': 'HEIA',
+    'PHILIPS': 'PHG', 'ASML': 'ASML', 'ASM': 'ASML',
+    'ABN AMRO': 'ABN', 'ING': 'ING',
+    'AHOLD DELHAIZE': 'AD', 'AHOLD': 'AD',
+    'PROSUS': 'PRX', 'WOLTERS KLUWER': 'WKL',
+    # Energy
+    'TOTALENERGIES': 'TTE', 'TOTAL': 'TTE',
+    'BP': 'BP', 'BRITISH PETROLEUM': 'BP',
+    'EXXON': 'XOM', 'EXXONMOBIL': 'XOM',
+    'CHEVRON': 'CVX', 'CONOCOPHILLIPS': 'COP',
+    # Tech
+    'APPLE': 'AAPL', 'MICROSOFT': 'MSFT', 'GOOGLE': 'GOOGL', 'ALPHABET': 'GOOGL',
+    'AMAZON': 'AMZN', 'META': 'META', 'FACEBOOK': 'META',
+    'NVIDIA': 'NVDA', 'AMD': 'AMD', 'INTEL': 'INTC',
+    'TESLA': 'TSLA', 'NETFLIX': 'NFLX', 'ADOBE': 'ADBE', 'SALESFORCE': 'CRM',
+    'PALANTIR': 'PLTR', 'SNOWFLAKE': 'SNOW', 'CROWDSTRIKE': 'CRWD',
+    'BROADCOM': 'AVGO', 'QUALCOMM': 'QCOM', 'TEXAS INSTRUMENTS': 'TXN',
+    # Banks
+    'JPMORGAN': 'JPM', 'JP MORGAN': 'JPM', 'GOLDMAN SACHS': 'GS',
+    'BANK OF AMERICA': 'BAC', 'WELLS FARGO': 'WFC', 'MORGAN STANLEY': 'MS',
+    'CITIGROUP': 'C', 'CHARLES SCHWAB': 'SCHW', 'HSBC': 'HSBC',
+    # Consumer
+    'COCA-COLA': 'KO', 'COCACOLA': 'KO', 'COKE': 'KO',
+    'PEPSI': 'PEP', 'PEPSICO': 'PEP',
+    'MCDONALDS': 'MCD', "MCDONALD'S": 'MCD',
+    'STARBUCKS': 'SBUX', 'NIKE': 'NKE',
+    'WALMART': 'WMT', 'COSTCO': 'COST', 'TARGET': 'TGT', 'HOME DEPOT': 'HD',
+    'PROCTER GAMBLE': 'PG', 'PROCTER & GAMBLE': 'PG', 'P&G': 'PG',
+    # Healthcare
+    'JOHNSON JOHNSON': 'JNJ', 'JOHNSON & JOHNSON': 'JNJ', 'J&J': 'JNJ',
+    'PFIZER': 'PFE', 'ABBVIE': 'ABBV', 'MERCK': 'MRK',
+    'UNITED HEALTH': 'UNH', 'UNITEDHEALTH': 'UNH',
+    'ELI LILLY': 'LLY', 'NOVO NORDISK': 'NVO',
+    # REITs
+    'REALTY INCOME': 'O', 'AGREE REALTY': 'ADC',
+    # Telecom
+    'VERIZON': 'VZ', 'AT&T': 'T', 'ATT': 'T', 'T-MOBILE': 'TMUS',
+    'VODAFONE': 'VOD', 'DEUTSCHE TELEKOM': 'DTE',
+    # Industrial
+    'CATERPILLAR': 'CAT', 'DEERE': 'DE', 'JOHN DEERE': 'DE',
+    '3M': 'MMM', 'HONEYWELL': 'HON', 'BOEING': 'BA',
+    # Utilities
+    'NEXTERA': 'NEE', 'NEXTERA ENERGY': 'NEE', 'DUKE ENERGY': 'DUK',
+    'SOUTHERN COMPANY': 'SO', 'DOMINION': 'D',
 }
 
 
@@ -69,7 +173,7 @@ def load_channel_config():
 
 
 def extract_tickers_from_text(text):
-    """Extract stock tickers from text."""
+    """Extract stock tickers from text, including company name mentions."""
     if not text:
         return []
     
@@ -87,6 +191,12 @@ def extract_tickers_from_text(text):
     for t in dollar_tickers:
         if t not in found and len(t) >= 2:
             found.append(t)
+    
+    # Also look for company names and map to tickers
+    for company_name, ticker in COMPANY_NAME_TO_TICKER.items():
+        pattern = r'\b' + re.escape(company_name) + r'\b'
+        if re.search(pattern, text_upper) and ticker not in found:
+            found.append(ticker)
     
     return list(set(found))
 

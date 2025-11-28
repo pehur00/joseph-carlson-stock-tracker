@@ -2,7 +2,7 @@
   {
     "videoId": "hl6Pjwp4xG8",
     "title": "1 Undervalued Stock Down 50% to Buy Before 2026",
-    "publishedAt": "2023-10-10",
+    "publishedAt": "2023-10-01",
     "thumbnail": "https://img.youtube.com/vi/hl6Pjwp4xG8/maxresdefault.jpg",
     "channelId": "channel-id",
     "channelName": "Channel Name",
@@ -12,57 +12,57 @@
     "tickersRecommended": [],
     "tickersCautioned": [],
     "summary": "The creator discusses T as an undervalued stock but does not explicitly recommend buying it or indicate any personal purchases. The analysis remains neutral without strong buy or sell signals.",
-    "keyInsights": ["The video provides an overview of T's current valuation but lacks actionable recommendations for viewers."]
+    "keyInsights": ["The video provides insights into T's current valuation but lacks actionable recommendations for viewers."]
   },
   {
     "videoId": "S115YsuWX8g",
     "title": "URGENT: Is AMD Stock a Buy, Sell, or Hold After the Plunge?",
-    "publishedAt": "2023-10-10",
+    "publishedAt": "2023-10-01",
     "thumbnail": "https://img.youtube.com/vi/S115YsuWX8g/maxresdefault.jpg",
     "channelId": "channel-id",
     "channelName": "Channel Name",
     "sentiment": "neutral",
-    "tickersMentioned": ["AMD", "T"],
+    "tickersMentioned": ["T", "AMD"],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
-    "summary": "The creator analyzes AMD and T, discussing their recent performance without making a definitive recommendation to buy or sell. The sentiment remains neutral as they weigh the pros and cons.",
-    "keyInsights": ["The video serves as an analysis of AMD's situation post-plunge, but does not provide clear guidance for investors."]
+    "summary": "The creator analyzes AMD's recent performance and discusses T, but does not provide a clear recommendation to buy or sell either stock. The sentiment remains neutral as they weigh the pros and cons.",
+    "keyInsights": ["The video serves as an analysis of AMD's situation without definitive investment advice."]
   },
   {
     "videoId": "eQ1A5Sr7JHI",
     "title": "Top 5 Most Beaten Down Stocks To Buy Now",
-    "publishedAt": "2023-10-10",
+    "publishedAt": "2023-10-01",
     "thumbnail": "https://img.youtube.com/vi/eQ1A5Sr7JHI/maxresdefault.jpg",
     "channelId": "channel-id",
     "channelName": "Channel Name",
     "sentiment": "neutral",
-    "tickersMentioned": ["D", "V", "NOW"],
+    "tickersMentioned": ["V", "NOW", "D"],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
-    "summary": "The creator discusses D, V, and NOW as beaten-down stocks but does not explicitly recommend buying any of them. The analysis is more focused on their current state rather than actionable advice.",
-    "keyInsights": ["The video highlights stocks that are currently undervalued but lacks strong recommendations for viewers to act upon."]
+    "summary": "The creator discusses V, NOW, and D as beaten-down stocks but does not explicitly recommend buying any of them. The analysis is more of a review rather than a strong buy signal.",
+    "keyInsights": ["The video highlights stocks that may be undervalued but lacks actionable recommendations for viewers."]
   },
   {
     "videoId": "ovIom8GbQXM",
     "title": "Revealed: 10 Best Stocks to Buy Now (We're Buying!)",
-    "publishedAt": "2023-10-10",
+    "publishedAt": "2023-10-01",
     "thumbnail": "https://img.youtube.com/vi/ovIom8GbQXM/maxresdefault.jpg",
     "channelId": "channel-id",
     "channelName": "Channel Name",
     "sentiment": "bullish",
-    "tickersMentioned": ["PLTR", "T", "NVDA", "AMD", "NOW"],
-    "tickersBought": ["PLTR", "T"],
-    "tickersRecommended": ["NVDA", "AMD", "NOW"],
+    "tickersMentioned": ["T", "NVDA", "AMD", "NOW", "PLTR"],
+    "tickersBought": ["T", "NVDA"],
+    "tickersRecommended": ["AMD", "NOW", "PLTR"],
     "tickersCautioned": [],
-    "summary": "The creator explicitly states they are buying PLTR and T, and recommends NVDA, AMD, and NOW for viewers to consider. The sentiment is bullish as they express confidence in these stocks.",
-    "keyInsights": ["The video provides actionable recommendations for viewers, highlighting specific stocks to consider for investment."]
+    "summary": "The creator expresses a bullish sentiment, stating they are buying T and NVDA, while also recommending AMD, NOW, and PLTR for viewers to consider. The video emphasizes a positive outlook on these stocks.",
+    "keyInsights": ["The creator's personal purchases and recommendations provide actionable insights for viewers looking to invest in these stocks."]
   },
   {
     "videoId": "aCX8pJPCy1s",
     "title": "DCA Tuesday - Buy Shell and Raise Target",
-    "publishedAt": "2023-10-10",
+    "publishedAt": "2023-10-01",
     "thumbnail": "https://img.youtube.com/vi/aCX8pJPCy1s/maxresdefault.jpg",
     "channelId": "channel-id",
     "channelName": "Channel Name",
@@ -71,7 +71,7 @@
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
-    "summary": "The creator discusses AI-related investment opportunities but does not mention specific stocks or make any recommendations. The sentiment remains neutral as no actionable advice is provided.",
-    "keyInsights": ["The video focuses on the potential of AI investments without directing viewers towards specific stocks to buy or sell."]
+    "summary": "The creator discusses AI-related investment opportunities but does not mention specific stocks or provide recommendations. The sentiment remains neutral as the focus is on broader trends rather than specific investments.",
+    "keyInsights": ["The video highlights the potential of AI investments but lacks specific actionable advice for viewers."]
   }
 ]
