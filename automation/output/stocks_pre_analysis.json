@@ -2,20 +2,20 @@
   {
     "category": "Growth",
     "ticker": "ADBE",
-    "name": "ADBE",
-    "price": 319.41,
+    "name": "Adobe Inc.",
+    "price": 320.95,
     "initialPrice": 317.52,
     "recommendedDate": "2025-11-27",
     "dcf": {
-      "conservative": "250.00-280.00",
-      "base": "280.00-350.00",
-      "aggressive": "350.00-400.00"
+      "conservative": "250.00-275.00",
+      "base": "290.00-320.00",
+      "aggressive": "330.00-360.00"
     },
-    "fcfQuality": 5,
-    "roicStrength": 5,
-    "revenueDurability": 5,
-    "balanceSheetStrength": 4,
-    "insiderActivity": 3,
+    "fcfQuality": 4,
+    "roicStrength": 3,
+    "revenueDurability": 4,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 2,
     "valueRank": 3,
     "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
@@ -33,17 +33,17 @@
   {
     "category": "Growth",
     "ticker": "AMD",
-    "name": "AMD",
-    "price": 217.51,
+    "name": "Advanced Micro Devices, Inc.",
+    "price": 216.88,
     "initialPrice": 206.13,
     "recommendedDate": "2025-11-26",
     "dcf": {
-      "conservative": "150.00-180.00",
-      "base": "180.00-220.00",
-      "aggressive": "220.00-270.00"
+      "conservative": "160.00-180.00",
+      "base": "200.00-220.00",
+      "aggressive": "230.00-250.00"
     },
     "fcfQuality": 4,
-    "roicStrength": 3,
+    "roicStrength": 4,
     "revenueDurability": 3,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
@@ -64,20 +64,20 @@
   {
     "category": "Growth",
     "ticker": "AMZN",
-    "name": "AMZN",
-    "price": 231.95,
+    "name": "Amazon.com, Inc.",
+    "price": 231.29,
     "initialPrice": 238.24,
     "recommendedDate": "2025-09-10",
     "dcf": {
-      "conservative": "180.00-210.00",
-      "base": "210.00-250.00",
-      "aggressive": "250.00-300.00"
+      "conservative": "180.00-200.00",
+      "base": "220.00-240.00",
+      "aggressive": "250.00-270.00"
     },
-    "fcfQuality": 5,
-    "roicStrength": 4,
+    "fcfQuality": 4,
+    "roicStrength": 3,
     "revenueDurability": 5,
     "balanceSheetStrength": 3,
-    "insiderActivity": 2,
+    "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
@@ -96,19 +96,19 @@
   {
     "category": "Growth",
     "ticker": "AVGO",
-    "name": "AVGO",
-    "price": 399.43,
+    "name": "Broadcom Inc.",
+    "price": 401.8,
     "initialPrice": 356.7,
     "recommendedDate": "2025-10-13",
     "dcf": {
-      "conservative": "300.00-350.00",
-      "base": "350.00-400.00",
-      "aggressive": "400.00-500.00"
+      "conservative": "320.00-350.00",
+      "base": "370.00-400.00",
+      "aggressive": "420.00-450.00"
     },
     "fcfQuality": 5,
-    "roicStrength": 5,
-    "revenueDurability": 5,
-    "balanceSheetStrength": 4,
+    "roicStrength": 4,
+    "revenueDurability": 4,
+    "balanceSheetStrength": 3,
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
@@ -126,15 +126,46 @@
   },
   {
     "category": "Growth",
+    "ticker": "CMG",
+    "name": "Chipotle Mexican Grill, Inc.",
+    "price": 34.35,
+    "initialPrice": 39.76,
+    "recommendedDate": "2025-10-30",
+    "dcf": {
+      "conservative": "25.00-30.00",
+      "base": "32.00-35.00",
+      "aggressive": "36.00-40.00"
+    },
+    "fcfQuality": 4,
+    "roicStrength": 3,
+    "revenueDurability": 4,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-28",
+    "source": "FiredUpWealth",
+    "sourceDetails": {
+      "channelId": "fired-up-wealth",
+      "firstMentioned": "2025-10-30",
+      "videos": [
+        "5 BEST Stocks to BUY Now (I'M BUYING)"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Dividend",
     "ticker": "COST",
-    "name": "COST",
-    "price": 909.34,
+    "name": "Costco Wholesale Corporation",
+    "price": 910.09,
     "initialPrice": 979.25,
     "recommendedDate": "2025-09-10",
     "dcf": {
-      "conservative": "700.00-800.00",
-      "base": "800.00-950.00",
-      "aggressive": "950.00-1,100.00"
+      "conservative": "700.00-750.00",
+      "base": "800.00-850.00",
+      "aggressive": "900.00-950.00"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
@@ -158,19 +189,112 @@
     }
   },
   {
+    "category": "Dividend",
+    "ticker": "CRWV",
+    "name": "CrowdStrike Holdings, Inc.",
+    "price": 73.74,
+    "initialPrice": 78.34,
+    "recommendedDate": "2025-11-14",
+    "dcf": {
+      "conservative": "50.00-60.00",
+      "base": "65.00-70.00",
+      "aggressive": "75.00-80.00"
+    },
+    "fcfQuality": 1,
+    "roicStrength": 2,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 2,
+    "insiderActivity": 1,
+    "valueRank": 2,
+    "expectedReturn": 2,
+    "lastUpdated": "2025-11-28",
+    "source": "FiredUpWealth",
+    "sourceDetails": {
+      "channelId": "fired-up-wealth",
+      "firstMentioned": "2025-11-14",
+      "videos": [
+        "5 BEST Stocks to BUY Now (I'M BUYING)"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Dividend",
+    "ticker": "D",
+    "name": "Dominion Energy, Inc.",
+    "price": 62.59,
+    "initialPrice": 61.54,
+    "recommendedDate": "2025-11-26",
+    "dcf": {
+      "conservative": "40.00-45.00",
+      "base": "50.00-55.00",
+      "aggressive": "60.00-65.00"
+    },
+    "fcfQuality": 1,
+    "roicStrength": 2,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 2,
+    "insiderActivity": 1,
+    "valueRank": 2,
+    "expectedReturn": 2,
+    "lastUpdated": "2025-11-28",
+    "source": "Everything Money",
+    "sourceDetails": {
+      "channelId": "everything-money",
+      "firstMentioned": "2025-11-26",
+      "videos": [
+        "Top 5 Most Beaten Down Stocks To Buy Now"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
     "category": "Growth",
     "ticker": "META",
-    "name": "META",
-    "price": 641.1,
+    "name": "Meta Platforms, Inc.",
+    "price": 641.75,
+    "initialPrice": 613.05,
+    "recommendedDate": "2025-11-24",
+    "dcf": {
+      "conservative": "500.00-550.00",
+      "base": "600.00-650.00",
+      "aggressive": "700.00-750.00"
+    },
+    "fcfQuality": 4,
+    "roicStrength": 3,
+    "revenueDurability": 5,
+    "balanceSheetStrength": 4,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-28",
+    "source": "CouchInvestor",
+    "sourceDetails": {
+      "channelId": "couch-investor",
+      "firstMentioned": "2025-11-24",
+      "videos": [
+        "4 No-Brainer Stocks to Buy Now"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Growth",
+    "ticker": "META",
+    "name": "Meta Platforms, Inc.",
+    "price": 641.75,
     "initialPrice": 751.67,
     "recommendedDate": "2025-10-30",
     "dcf": {
       "conservative": "500.00-550.00",
-      "base": "550.00-650.00",
-      "aggressive": "650.00-800.00"
+      "base": "600.00-650.00",
+      "aggressive": "700.00-750.00"
     },
     "fcfQuality": 4,
-    "roicStrength": 4,
+    "roicStrength": 3,
     "revenueDurability": 5,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
@@ -191,17 +315,17 @@
   {
     "category": "Growth",
     "ticker": "META",
-    "name": "META",
-    "price": 641.1,
+    "name": "Meta Platforms, Inc.",
+    "price": 641.75,
     "initialPrice": 627.32,
     "recommendedDate": "2025-11-05",
     "dcf": {
       "conservative": "500.00-550.00",
-      "base": "550.00-650.00",
-      "aggressive": "650.00-800.00"
+      "base": "600.00-650.00",
+      "aggressive": "700.00-750.00"
     },
     "fcfQuality": 4,
-    "roicStrength": 4,
+    "roicStrength": 3,
     "revenueDurability": 5,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
@@ -222,22 +346,22 @@
   {
     "category": "Dividend",
     "ticker": "MO",
-    "name": "MO",
-    "price": 58.92,
+    "name": "Altria Group, Inc.",
+    "price": 58.87,
     "initialPrice": 58.34,
     "recommendedDate": "2025-11-26",
     "dcf": {
-      "conservative": "40.00-45.00",
-      "base": "45.00-60.00",
-      "aggressive": "60.00-70.00"
+      "conservative": "45.00-50.00",
+      "base": "55.00-60.00",
+      "aggressive": "65.00-70.00"
     },
     "fcfQuality": 4,
     "roicStrength": 3,
     "revenueDurability": 3,
-    "balanceSheetStrength": 2,
+    "balanceSheetStrength": 3,
     "insiderActivity": 2,
     "valueRank": 3,
-    "expectedReturn": 3,
+    "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
     "source": "Everything Money",
     "sourceDetails": {
@@ -253,14 +377,14 @@
   {
     "category": "Growth",
     "ticker": "NET",
-    "name": "NET",
-    "price": 199.15,
+    "name": "Cloudflare, Inc.",
+    "price": 200.13,
     "initialPrice": 202.25,
     "recommendedDate": "2025-11-18",
     "dcf": {
-      "conservative": "150.00-170.00",
-      "base": "170.00-200.00",
-      "aggressive": "200.00-250.00"
+      "conservative": "150.00-160.00",
+      "base": "170.00-180.00",
+      "aggressive": "190.00-200.00"
     },
     "fcfQuality": 3,
     "roicStrength": 3,
@@ -268,7 +392,7 @@
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
     "valueRank": 3,
-    "expectedReturn": 3,
+    "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
     "source": "Leven van Dividend",
     "sourceDetails": {
@@ -284,17 +408,17 @@
   {
     "category": "Growth",
     "ticker": "NFLX",
-    "name": "NFLX",
-    "price": 106.43,
+    "name": "Netflix, Inc.",
+    "price": 107.05,
     "initialPrice": 110.04,
     "recommendedDate": "2025-10-30",
     "dcf": {
       "conservative": "80.00-90.00",
-      "base": "90.00-110.00",
-      "aggressive": "110.00-130.00"
+      "base": "100.00-110.00",
+      "aggressive": "120.00-130.00"
     },
     "fcfQuality": 4,
-    "roicStrength": 4,
+    "roicStrength": 3,
     "revenueDurability": 4,
     "balanceSheetStrength": 3,
     "insiderActivity": 3,
@@ -315,18 +439,18 @@
   {
     "category": "Growth",
     "ticker": "NOW",
-    "name": "NOW",
-    "price": 807.18,
+    "name": "ServiceNow, Inc.",
+    "price": 811.77,
     "initialPrice": 815.84,
     "recommendedDate": "2025-11-24",
     "dcf": {
-      "conservative": "600.00-700.00",
-      "base": "700.00-850.00",
-      "aggressive": "850.00-1,000.00"
+      "conservative": "600.00-650.00",
+      "base": "700.00-750.00",
+      "aggressive": "800.00-850.00"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
-    "revenueDurability": 4,
+    "revenueDurability": 5,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
     "valueRank": 3,
@@ -346,18 +470,18 @@
   {
     "category": "Growth",
     "ticker": "NOW",
-    "name": "NOW",
-    "price": 807.18,
+    "name": "ServiceNow, Inc.",
+    "price": 811.77,
     "initialPrice": 815.84,
     "recommendedDate": "2025-11-25",
     "dcf": {
-      "conservative": "600.00-700.00",
-      "base": "700.00-850.00",
-      "aggressive": "850.00-1,000.00"
+      "conservative": "600.00-650.00",
+      "base": "700.00-750.00",
+      "aggressive": "800.00-850.00"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
-    "revenueDurability": 4,
+    "revenueDurability": 5,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
     "valueRank": 3,
@@ -377,18 +501,18 @@
   {
     "category": "Growth",
     "ticker": "NOW",
-    "name": "NOW",
-    "price": 807.18,
+    "name": "ServiceNow, Inc.",
+    "price": 811.77,
     "initialPrice": 825.31,
     "recommendedDate": "2025-11-26",
     "dcf": {
-      "conservative": "600.00-700.00",
-      "base": "700.00-850.00",
-      "aggressive": "850.00-1,000.00"
+      "conservative": "600.00-650.00",
+      "base": "700.00-750.00",
+      "aggressive": "800.00-850.00"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
-    "revenueDurability": 4,
+    "revenueDurability": 5,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
     "valueRank": 3,
@@ -408,18 +532,18 @@
   {
     "category": "Growth",
     "ticker": "NOW",
-    "name": "NOW",
-    "price": 807.18,
+    "name": "ServiceNow, Inc.",
+    "price": 811.77,
     "initialPrice": 911.7,
     "recommendedDate": "2025-10-30",
     "dcf": {
-      "conservative": "600.00-700.00",
-      "base": "700.00-850.00",
-      "aggressive": "850.00-1,000.00"
+      "conservative": "600.00-650.00",
+      "base": "700.00-750.00",
+      "aggressive": "800.00-850.00"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
-    "revenueDurability": 4,
+    "revenueDurability": 5,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
     "valueRank": 3,
@@ -439,18 +563,18 @@
   {
     "category": "Growth",
     "ticker": "NOW",
-    "name": "NOW",
-    "price": 807.18,
+    "name": "ServiceNow, Inc.",
+    "price": 811.77,
     "initialPrice": 923.7,
     "recommendedDate": "2025-10-13",
     "dcf": {
-      "conservative": "600.00-700.00",
-      "base": "700.00-850.00",
-      "aggressive": "850.00-1,000.00"
+      "conservative": "600.00-650.00",
+      "base": "700.00-750.00",
+      "aggressive": "800.00-850.00"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
-    "revenueDurability": 4,
+    "revenueDurability": 5,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
     "valueRank": 3,
@@ -470,20 +594,20 @@
   {
     "category": "Growth",
     "ticker": "NVDA",
-    "name": "NVDA",
-    "price": 178.56,
+    "name": "NVIDIA Corporation",
+    "price": 177.71,
     "initialPrice": 182.55,
     "recommendedDate": "2025-11-24",
     "dcf": {
       "conservative": "130.00-150.00",
-      "base": "150.00-180.00",
-      "aggressive": "180.00-220.00"
+      "base": "160.00-180.00",
+      "aggressive": "190.00-210.00"
     },
     "fcfQuality": 5,
-    "roicStrength": 5,
+    "roicStrength": 4,
     "revenueDurability": 5,
     "balanceSheetStrength": 5,
-    "insiderActivity": 4,
+    "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
@@ -502,20 +626,20 @@
   {
     "category": "Growth",
     "ticker": "NVDA",
-    "name": "NVDA",
-    "price": 178.56,
+    "name": "NVIDIA Corporation",
+    "price": 177.71,
     "initialPrice": 188.08,
     "recommendedDate": "2025-11-07",
     "dcf": {
       "conservative": "130.00-150.00",
-      "base": "150.00-180.00",
-      "aggressive": "180.00-220.00"
+      "base": "160.00-180.00",
+      "aggressive": "190.00-210.00"
     },
     "fcfQuality": 5,
-    "roicStrength": 5,
+    "roicStrength": 4,
     "revenueDurability": 5,
     "balanceSheetStrength": 5,
-    "insiderActivity": 4,
+    "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
@@ -533,23 +657,54 @@
   },
   {
     "category": "Growth",
+    "ticker": "NVDA",
+    "name": "NVIDIA Corporation",
+    "price": 177.71,
+    "initialPrice": 188.32,
+    "recommendedDate": "2025-10-13",
+    "dcf": {
+      "conservative": "130.00-150.00",
+      "base": "160.00-180.00",
+      "aggressive": "190.00-210.00"
+    },
+    "fcfQuality": 5,
+    "roicStrength": 4,
+    "revenueDurability": 5,
+    "balanceSheetStrength": 5,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 4,
+    "lastUpdated": "2025-11-28",
+    "source": "The Joseph Carlson Show",
+    "sourceDetails": {
+      "channelId": "joseph-carlson",
+      "firstMentioned": "2025-10-13",
+      "videos": [
+        "Top Five AI Stocks I'm Buying Now"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Growth",
     "ticker": "PLTR",
-    "name": "PLTR",
-    "price": 167.18,
+    "name": "Palantir Technologies Inc.",
+    "price": 167.23,
     "initialPrice": 175.05,
     "recommendedDate": "2025-11-07",
     "dcf": {
-      "conservative": "120.00-140.00",
-      "base": "140.00-170.00",
-      "aggressive": "170.00-200.00"
+      "conservative": "120.00-130.00",
+      "base": "140.00-150.00",
+      "aggressive": "160.00-170.00"
     },
-    "fcfQuality": 3,
+    "fcfQuality": 4,
     "roicStrength": 3,
     "revenueDurability": 3,
     "balanceSheetStrength": 4,
-    "insiderActivity": 2,
+    "insiderActivity": 3,
     "valueRank": 3,
-    "expectedReturn": 3,
+    "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
     "source": "FiredUpWealth",
     "sourceDetails": {
@@ -564,24 +719,24 @@
     }
   },
   {
-    "category": "Growth",
-    "ticker": "SHELL",
-    "name": "SHELL (pending analysis)",
-    "price": 0.0,
-    "initialPrice": 0.0,
+    "category": "Dividend",
+    "ticker": "SHEL",
+    "name": "Shell plc",
+    "price": 73.96,
+    "initialPrice": 73.23,
     "recommendedDate": "2025-11-25",
     "dcf": {
-      "conservative": "0-0",
-      "base": "0-0",
-      "aggressive": "0-0"
+      "conservative": "50.00-60.00",
+      "base": "70.00-80.00",
+      "aggressive": "90.00-100.00"
     },
-    "fcfQuality": 3,
+    "fcfQuality": 4,
     "roicStrength": 3,
-    "revenueDurability": 3,
+    "revenueDurability": 4,
     "balanceSheetStrength": 3,
     "insiderActivity": 3,
     "valueRank": 3,
-    "expectedReturn": 3,
+    "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
     "source": "Leven van Dividend",
     "sourceDetails": {
@@ -597,14 +752,14 @@
   {
     "category": "Dividend",
     "ticker": "SO",
-    "name": "SO",
-    "price": 90.78,
+    "name": "Southern Company",
+    "price": 90.75,
     "initialPrice": 89.14,
     "recommendedDate": "2025-11-25",
     "dcf": {
       "conservative": "60.00-70.00",
-      "base": "70.00-90.00",
-      "aggressive": "90.00-110.00"
+      "base": "75.00-80.00",
+      "aggressive": "85.00-90.00"
     },
     "fcfQuality": 1,
     "roicStrength": 2,
@@ -628,21 +783,52 @@
   {
     "category": "Dividend",
     "ticker": "T",
-    "name": "T",
+    "name": "AT&T Inc.",
     "price": 25.82,
-    "initialPrice": 24.74,
-    "recommendedDate": "2025-11-07",
+    "initialPrice": 25.62,
+    "recommendedDate": "2025-11-24",
     "dcf": {
-      "conservative": "20.00-22.00",
-      "base": "22.00-27.00",
-      "aggressive": "27.00-35.00"
+      "conservative": "15.00-20.00",
+      "base": "22.00-25.00",
+      "aggressive": "28.00-30.00"
     },
     "fcfQuality": 3,
     "roicStrength": 2,
     "revenueDurability": 3,
     "balanceSheetStrength": 2,
     "insiderActivity": 2,
-    "valueRank": 3,
+    "valueRank": 2,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-28",
+    "source": "CouchInvestor",
+    "sourceDetails": {
+      "channelId": "couch-investor",
+      "firstMentioned": "2025-11-24",
+      "videos": [
+        "4 No-Brainer Stocks to Buy Now"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Dividend",
+    "ticker": "T",
+    "name": "AT&T Inc.",
+    "price": 25.82,
+    "initialPrice": 24.74,
+    "recommendedDate": "2025-11-07",
+    "dcf": {
+      "conservative": "15.00-20.00",
+      "base": "22.00-25.00",
+      "aggressive": "28.00-30.00"
+    },
+    "fcfQuality": 3,
+    "roicStrength": 2,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 2,
+    "insiderActivity": 2,
+    "valueRank": 2,
     "expectedReturn": 3,
     "lastUpdated": "2025-11-28",
     "source": "FiredUpWealth",
@@ -658,24 +844,24 @@
     }
   },
   {
-    "category": "Growth",
+    "category": "Dividend",
     "ticker": "TGT",
-    "name": "TGT",
-    "price": 91.01,
+    "name": "Target Corporation",
+    "price": 91.07,
     "initialPrice": 84.54,
     "recommendedDate": "2025-11-25",
     "dcf": {
       "conservative": "70.00-80.00",
-      "base": "80.00-100.00",
-      "aggressive": "100.00-120.00"
+      "base": "85.00-90.00",
+      "aggressive": "95.00-100.00"
     },
-    "fcfQuality": 3,
+    "fcfQuality": 4,
     "roicStrength": 3,
-    "revenueDurability": 3,
+    "revenueDurability": 4,
     "balanceSheetStrength": 3,
     "insiderActivity": 3,
     "valueRank": 3,
-    "expectedReturn": 3,
+    "expectedReturn": 4,
     "lastUpdated": "2025-11-28",
     "source": "Leven van Dividend",
     "sourceDetails": {
@@ -691,17 +877,17 @@
   {
     "category": "Growth",
     "ticker": "TSLA",
-    "name": "TSLA",
-    "price": 430.2,
+    "name": "Tesla, Inc.",
+    "price": 427.79,
     "initialPrice": 426.58,
     "recommendedDate": "2025-11-27",
     "dcf": {
-      "conservative": "300.00-350.00",
-      "base": "350.00-450.00",
-      "aggressive": "450.00-550.00"
+      "conservative": "350.00-370.00",
+      "base": "400.00-420.00",
+      "aggressive": "450.00-470.00"
     },
-    "fcfQuality": 4,
-    "roicStrength": 4,
+    "fcfQuality": 3,
+    "roicStrength": 3,
     "revenueDurability": 4,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
@@ -722,17 +908,17 @@
   {
     "category": "Growth",
     "ticker": "V",
-    "name": "V",
-    "price": 333.44,
+    "name": "Visa Inc.",
+    "price": 334.26,
     "initialPrice": 334.53,
     "recommendedDate": "2025-11-26",
     "dcf": {
-      "conservative": "250.00-280.00",
-      "base": "280.00-350.00",
-      "aggressive": "350.00-400.00"
+      "conservative": "250.00-270.00",
+      "base": "290.00-310.00",
+      "aggressive": "320.00-340.00"
     },
     "fcfQuality": 5,
-    "roicStrength": 5,
+    "roicStrength": 4,
     "revenueDurability": 5,
     "balanceSheetStrength": 4,
     "insiderActivity": 3,
@@ -752,10 +938,10 @@
   },
   {
     "category": "Growth",
-    "ticker": "D",
-    "name": "D (pending analysis)",
+    "ticker": "GOOGL",
+    "name": "GOOGL (pending analysis)",
     "price": 0.0,
-    "initialPrice": 61.54,
+    "initialPrice": 323.44,
     "recommendedDate": "2025-11-26",
     "dcf": {
       "conservative": "0-0",
@@ -770,43 +956,12 @@
     "valueRank": 3,
     "expectedReturn": 3,
     "lastUpdated": "2025-11-28",
-    "source": "Everything Money",
+    "source": "FiredUpWealth",
     "sourceDetails": {
-      "channelId": "everything-money",
+      "channelId": "fired-up-wealth",
       "firstMentioned": "2025-11-26",
       "videos": [
-        "Top 5 Most Beaten Down Stocks To Buy Now"
-      ],
-      "isBought": true,
-      "addedOn": "2025-11-28"
-    }
-  },
-  {
-    "category": "Growth",
-    "ticker": "SHEL",
-    "name": "SHEL (pending analysis)",
-    "price": 0.0,
-    "initialPrice": 73.23,
-    "recommendedDate": "2025-11-25",
-    "dcf": {
-      "conservative": "0-0",
-      "base": "0-0",
-      "aggressive": "0-0"
-    },
-    "fcfQuality": 3,
-    "roicStrength": 3,
-    "revenueDurability": 3,
-    "balanceSheetStrength": 3,
-    "insiderActivity": 3,
-    "valueRank": 3,
-    "expectedReturn": 3,
-    "lastUpdated": "2025-11-28",
-    "source": "Leven van Dividend",
-    "sourceDetails": {
-      "channelId": "leven-van-dividend",
-      "firstMentioned": "2025-11-25",
-      "videos": [
-        "DCA Tuesday - Buy Shell and Raise Target"
+        "Revealed: 10 Best Stocks to Buy Now (We're Buying!)"
       ],
       "isBought": true,
       "addedOn": "2025-11-28"
@@ -817,8 +972,8 @@
     "ticker": "META",
     "name": "META (pending analysis)",
     "price": 0.0,
-    "initialPrice": 613.05,
-    "recommendedDate": "2025-11-24",
+    "initialPrice": 636.22,
+    "recommendedDate": "2025-11-26",
     "dcf": {
       "conservative": "0-0",
       "base": "0-0",
@@ -832,12 +987,12 @@
     "valueRank": 3,
     "expectedReturn": 3,
     "lastUpdated": "2025-11-28",
-    "source": "CouchInvestor",
+    "source": "Financial Education",
     "sourceDetails": {
-      "channelId": "couch-investor",
-      "firstMentioned": "2025-11-24",
+      "channelId": "financial-education",
+      "firstMentioned": "2025-11-26",
       "videos": [
-        "4 No-Brainer Stocks to Buy Now"
+        "The #1 Stock I will BUY the remainder of 2025"
       ],
       "isBought": true,
       "addedOn": "2025-11-28"
@@ -848,8 +1003,70 @@
     "ticker": "NVDA",
     "name": "NVDA (pending analysis)",
     "price": 0.0,
-    "initialPrice": 188.32,
-    "recommendedDate": "2025-10-13",
+    "initialPrice": 177.82,
+    "recommendedDate": "2025-11-26",
+    "dcf": {
+      "conservative": "0-0",
+      "base": "0-0",
+      "aggressive": "0-0"
+    },
+    "fcfQuality": 3,
+    "roicStrength": 3,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-28",
+    "source": "Financial Education",
+    "sourceDetails": {
+      "channelId": "financial-education",
+      "firstMentioned": "2025-11-26",
+      "videos": [
+        "The #1 Stock I will BUY the remainder of 2025"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Growth",
+    "ticker": "MELI",
+    "name": "MELI (pending analysis)",
+    "price": 0.0,
+    "initialPrice": 2031.05,
+    "recommendedDate": "2025-11-14",
+    "dcf": {
+      "conservative": "0-0",
+      "base": "0-0",
+      "aggressive": "0-0"
+    },
+    "fcfQuality": 3,
+    "roicStrength": 3,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2025-11-28",
+    "source": "FiredUpWealth",
+    "sourceDetails": {
+      "channelId": "fired-up-wealth",
+      "firstMentioned": "2025-11-14",
+      "videos": [
+        "5 BEST Stocks to BUY Now (I'M BUYING)"
+      ],
+      "isBought": true,
+      "addedOn": "2025-11-28"
+    }
+  },
+  {
+    "category": "Growth",
+    "ticker": "CRM",
+    "name": "CRM (pending analysis)",
+    "price": 0.0,
+    "initialPrice": 254.44,
+    "recommendedDate": "2025-11-05",
     "dcf": {
       "conservative": "0-0",
       "base": "0-0",
@@ -866,9 +1083,9 @@
     "source": "The Joseph Carlson Show",
     "sourceDetails": {
       "channelId": "joseph-carlson",
-      "firstMentioned": "2025-10-13",
+      "firstMentioned": "2025-11-05",
       "videos": [
-        "Top Five AI Stocks I'm Buying Now"
+        "6 Stocks To Buy In An Overvalued Market"
       ],
       "isBought": true,
       "addedOn": "2025-11-28"

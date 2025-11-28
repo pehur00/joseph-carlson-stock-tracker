@@ -209,7 +209,8 @@ def analyze_title_for_buying(title):
     """
     title_lower = title.lower()
     buying_keywords = ['buying', 'bought', "i'm buying", 'i bought', 'adding', 'added', 
-                       'buy now', 'to buy', 'stocks to buy', 'buy this', 'i buy', 'dca']
+                       'buy now', 'to buy', 'stocks to buy', 'buy this', 'i buy', 'dca',
+                       'i will buy', 'stock to buy', 'best stock', 'top stock', '#1 stock']
     return any(kw in title_lower for kw in buying_keywords)
 
 

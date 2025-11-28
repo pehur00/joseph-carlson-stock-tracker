@@ -7,12 +7,12 @@
     "channelId": "channel-id",
     "channelName": "Channel Name",
     "sentiment": "bullish",
-    "tickersMentioned": ["NVDA", "ADBE", "TSLA", "T"],
-    "tickersBought": ["NVDA", "ADBE"],
-    "tickersRecommended": ["NVDA", "ADBE"],
+    "tickersMentioned": ["TSLA", "NVDA", "ADBE", "T"],
+    "tickersBought": ["TSLA", "NVDA"],
+    "tickersRecommended": ["TSLA", "NVDA"],
     "tickersCautioned": [],
-    "summary": "The creator expresses a bullish sentiment towards NVDA and ADBE, stating they have bought these stocks. They highlight the potential for growth and undervaluation in these companies, encouraging viewers to consider them as strong investment opportunities.",
-    "keyInsights": ["The creator emphasizes the undervaluation of NVDA and ADBE, suggesting they are good buys before 2026.", "They provide reasoning based on market trends and company performance."]
+    "summary": "The creator expresses a bullish sentiment towards TSLA and NVDA, stating they have bought these stocks and recommending them as undervalued opportunities. They analyze the potential for growth in these companies, particularly focusing on their future prospects.",
+    "keyInsights": ["The creator emphasizes the undervaluation of TSLA and NVDA, suggesting that they are good buys before 2026 due to their strong fundamentals and market position."]
   },
   {
     "videoId": "S115YsuWX8g",
@@ -22,27 +22,27 @@
     "channelId": "channel-id",
     "channelName": "Channel Name",
     "sentiment": "neutral",
-    "tickersMentioned": ["NVDA", "TSLA", "T", "AMD"],
+    "tickersMentioned": ["TSLA", "NVDA", "AMD", "T"],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
-    "summary": "The creator analyzes NVDA, TSLA, T, and AMD without making strong recommendations. They discuss the recent pullback in stock prices but do not indicate any buying or selling actions.",
-    "keyInsights": ["The creator provides a detailed analysis of the mentioned stocks but maintains a neutral stance.", "They suggest viewers do their own research before making decisions."]
+    "summary": "The creator discusses TSLA, NVDA, and AMD, analyzing their recent performance and market conditions. However, they do not explicitly recommend any of these stocks for purchase or indicate any personal buying activity.",
+    "keyInsights": ["The video provides an analysis of the stocks' recent pullbacks but lacks strong recommendations or personal buying decisions, maintaining a neutral stance."]
   },
   {
     "videoId": "eQ1A5Sr7JHI",
-    "title": "Top 5 Most Beaten Down Stocks To Buy Now",
+    "title": "5 Most Beaten Down Stocks To Buy Now",
     "publishedAt": "2023-10-01",
     "thumbnail": "https://img.youtube.com/vi/eQ1A5Sr7JHI/maxresdefault.jpg",
     "channelId": "channel-id",
     "channelName": "Channel Name",
     "sentiment": "bullish",
-    "tickersMentioned": ["D", "NOW", "V", "MO"],
-    "tickersBought": ["D", "NOW"],
-    "tickersRecommended": ["D", "NOW"],
+    "tickersMentioned": ["NOW", "V", "MO", "D"],
+    "tickersBought": ["NOW", "V"],
+    "tickersRecommended": ["NOW", "V"],
     "tickersCautioned": [],
-    "summary": "The creator is bullish on D and NOW, stating they have bought these stocks. They discuss the potential for recovery and growth in these companies, encouraging viewers to consider them as solid investments.",
-    "keyInsights": ["The creator highlights D and NOW as beaten-down stocks with potential upside.", "They recommend them for purchase based on their analysis of market conditions."]
+    "summary": "The creator is bullish on NOW and V, stating they have bought these stocks and recommending them as good opportunities in the current market. They discuss the potential for recovery and growth in these companies.",
+    "keyInsights": ["The creator highlights NOW and V as beaten-down stocks with potential upside, encouraging viewers to consider them for their portfolios."]
   },
   {
     "videoId": "ovIom8GbQXM",
@@ -52,12 +52,12 @@
     "channelId": "channel-id",
     "channelName": "Channel Name",
     "sentiment": "bullish",
-    "tickersMentioned": ["NVDA", "PLTR", "AMD", "GOOGL", "NOW", "T"],
-    "tickersBought": ["NVDA", "PLTR"],
-    "tickersRecommended": ["NVDA", "PLTR"],
+    "tickersMentioned": ["NVDA", "GOOGL", "PLTR", "NOW", "T", "AMD"],
+    "tickersBought": ["NVDA", "GOOGL"],
+    "tickersRecommended": ["NVDA", "GOOGL"],
     "tickersCautioned": [],
-    "summary": "The creator expresses a bullish sentiment towards NVDA and PLTR, stating they have bought these stocks. They provide insights into their investment strategy and the reasons behind their choices, encouraging viewers to consider these stocks.",
-    "keyInsights": ["The creator emphasizes the strong fundamentals of NVDA and PLTR.", "They recommend them as top picks for investment based on their growth potential and market position."]
+    "summary": "The creator expresses a strong bullish sentiment towards NVDA and GOOGL, stating they have bought these stocks and recommending them as top picks for investment. They provide insights into the companies' growth potential and market strategies.",
+    "keyInsights": ["The creator emphasizes the strong fundamentals of NVDA and GOOGL, suggesting they are excellent buys for investors looking for growth opportunities."]
   },
   {
     "videoId": "i-mg7qDGmNs",
@@ -66,12 +66,12 @@
     "thumbnail": "https://img.youtube.com/vi/i-mg7qDGmNs/maxresdefault.jpg",
     "channelId": "channel-id",
     "channelName": "Channel Name",
-    "sentiment": "neutral",
-    "tickersMentioned": ["NVDA", "META", "PLTR", "TSLA", "NOW"],
-    "tickersBought": [],
-    "tickersRecommended": [],
+    "sentiment": "bullish",
+    "tickersMentioned": ["META", "NVDA", "TSLA", "PLTR", "NOW"],
+    "tickersBought": ["META", "NVDA"],
+    "tickersRecommended": ["META", "NVDA"],
     "tickersCautioned": [],
-    "summary": "The creator discusses various stocks related to AI but does not explicitly state any buying or selling actions. They analyze the potential of these companies without making strong recommendations.",
-    "keyInsights": ["The creator provides insights into AI-related investment opportunities.", "They maintain a neutral stance, suggesting viewers consider the potential of the mentioned stocks without direct recommendations."]
+    "summary": "The creator is bullish on META and NVDA, stating they have bought these stocks and recommending them as key investments for the remainder of 2025. They discuss the potential for AI-related growth in these companies.",
+    "keyInsights": ["The creator highlights the importance of META and NVDA in the context of AI advancements, suggesting they are strong candidates for investment due to their innovative capabilities and market positioning."]
   }
 ]
