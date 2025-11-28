@@ -100,11 +100,12 @@ def step_3_add_new_tickers(new_tickers, current_stocks):
     
     if added:
         print(f"\n  Added {len(added)} new ticker(s): {', '.join(added)}")
-        output_file = OUTPUT_DIR / "stocks.json"
-        output_file.parent.mkdir(exist_ok=True)
-        with open(output_file, "w") as f:
+        # Save to a separate file that won't be overwritten by CrewAI
+        pre_analysis_file = OUTPUT_DIR / "stocks_pre_analysis.json"
+        pre_analysis_file.parent.mkdir(exist_ok=True)
+        with open(pre_analysis_file, "w") as f:
             json.dump(updated_stocks, f, indent=2)
-        print(f"  Saved to: {output_file}")
+        print(f"  Saved to: {pre_analysis_file}")
     else:
         print("\n  No tickers added.")
     
@@ -142,106 +143,127 @@ def step_5_finalize():
     print("  STEP 5: Finalizing Data")
     print("=" * 70)
     
-    output_file = OUTPUT_DIR / "stocks.json"
+    crew_output_file = OUTPUT_DIR / "stocks.json"
+    pre_analysis_file = OUTPUT_DIR / "stocks_pre_analysis.json"
     website_data_file = DATA_DIR / "stocks.json"
-    
-    if not output_file.exists():
-        print("\n  WARNING: output/stocks.json was not created.")
-        return False
     
     today = datetime.utcnow().strftime("%Y-%m-%d")
     
-    try:
-        # Read crew output
-        raw_text = output_file.read_text(encoding="utf-8").strip()
-        if raw_text.startswith("```"):
-            raw_text = raw_text.split("\n", 1)[1] if "\n" in raw_text else ""
-        if raw_text.endswith("```"):
-            raw_text = raw_text.rsplit("\n", 1)[0]
-        
-        crew_data = json.loads(raw_text)
-        
-        # Read existing website data (if any) to preserve stocks not in this run
-        existing_data = []
-        if website_data_file.exists():
-            try:
-                existing_data = json.load(open(website_data_file))
-            except:
-                pass
-        
-        # Build a map of existing stocks by ticker|source (unique key)
-        def get_stock_key(s):
-            ticker = s.get('ticker', '').upper()
-            source = s.get('source', 'Unknown')
-            return f"{ticker}|{source}"
-        
-        existing_by_key = {get_stock_key(s): s for s in existing_data}
-        
-        # Merge: crew output updates existing stocks but preserves important fields
-        if isinstance(crew_data, list):
-            for entry in crew_data:
-                if isinstance(entry, dict):
-                    ticker = entry.get('ticker', '').upper()
-                    source = entry.get('source')
-                    
-                    # Skip entries without a valid source (placeholder/example data)
-                    if not source or source == 'Unknown':
-                        print(f"    Skipping {ticker}: no valid source")
-                        continue
-                    
-                    stock_key = f"{ticker}|{source}"
-                    
-                    if ticker:
-                        existing_stock = existing_by_key.get(stock_key, {})
+    # Load pre-analysis stocks (with source, recommendedDate, initialPrice)
+    pre_analysis_stocks = []
+    if pre_analysis_file.exists():
+        try:
+            pre_analysis_stocks = json.load(open(pre_analysis_file))
+            print(f"  Loaded {len(pre_analysis_stocks)} stocks from pre-analysis")
+        except Exception as e:
+            print(f"  Warning: Could not load pre-analysis stocks: {e}")
+    
+    # Load existing website data
+    existing_data = []
+    if website_data_file.exists():
+        try:
+            existing_data = json.load(open(website_data_file))
+        except:
+            pass
+    
+    # Combine pre-analysis stocks with existing data
+    def get_stock_key(s):
+        ticker = s.get('ticker', '').upper()
+        source = s.get('source', 'Unknown')
+        return f"{ticker}|{source}"
+    
+    # Start with existing, then overlay pre-analysis (which has source/date info)
+    stocks_by_key = {get_stock_key(s): s for s in existing_data}
+    for s in pre_analysis_stocks:
+        key = get_stock_key(s)
+        if key not in stocks_by_key:
+            stocks_by_key[key] = s
+        else:
+            # Preserve source, recommendedDate, initialPrice from pre-analysis
+            for field in ['source', 'recommendedDate', 'initialPrice']:
+                if s.get(field):
+                    stocks_by_key[key][field] = s[field]
+    
+    # Now merge CrewAI analysis output (which has DCF, scores, etc.)
+    if crew_output_file.exists():
+        try:
+            raw_text = crew_output_file.read_text(encoding="utf-8").strip()
+            if raw_text.startswith("```"):
+                raw_text = raw_text.split("\n", 1)[1] if "\n" in raw_text else ""
+            if raw_text.endswith("```"):
+                raw_text = raw_text.rsplit("\n", 1)[0]
+            
+            crew_data = json.loads(raw_text)
+            
+            if isinstance(crew_data, list):
+                for entry in crew_data:
+                    if isinstance(entry, dict):
+                        ticker = entry.get('ticker', '').upper()
+                        if not ticker:
+                            continue
                         
-                        # Preserve these fields from existing data
-                        preserved_fields = ['initialPrice', 'source', 'recommendedDate']
-                        for field in preserved_fields:
-                            if field in existing_stock and field not in entry:
-                                entry[field] = existing_stock[field]
+                        # Find matching stock(s) by ticker in our existing data
+                        # CrewAI doesn't know about source, so match by ticker only
+                        matched_keys = [k for k in stocks_by_key.keys() if k.startswith(f"{ticker}|")]
                         
-                        # If no initialPrice exists, fetch historical price
-                        if not entry.get('initialPrice'):
-                            rec_date = entry.get('recommendedDate') or existing_stock.get('recommendedDate')
-                            if rec_date and rec_date < today:
-                                print(f"    Fetching historical price for {ticker} @ {rec_date}...")
-                                hist_price = get_historical_price(ticker, rec_date)
-                                if hist_price:
-                                    entry['initialPrice'] = hist_price
-                                    print(f"    → ${hist_price}")
-                                else:
-                                    # Fallback to current price
-                                    entry['initialPrice'] = entry.get('price')
-                                    print(f"    → Using current price ${entry.get('price')}")
-                                time.sleep(0.3)
-                            elif entry.get('price'):
-                                # No historical date, use current price
-                                entry['initialPrice'] = entry['price']
-                        
-                        entry['lastUpdated'] = today
-                        existing_by_key[stock_key] = entry
-        
-        # Convert back to list
-        merged_data = list(existing_by_key.values())
-        
-        # Sort by ticker then source for consistency
-        merged_data.sort(key=lambda x: (x.get('ticker', ''), x.get('source', '')))
-        
-        # Write merged output
-        output_file.write_text(json.dumps(merged_data, indent=2) + "\n", encoding="utf-8")
-        
-        # Copy to website data folder
-        website_data_file.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy(output_file, website_data_file)
-        print(f"  Merged and copied stocks.json to {website_data_file}")
-        print(f"  Total stocks: {len(merged_data)}")
-        return True
-        
-    except Exception as e:
-        print(f"  ERROR: Could not finalize data ({e})")
-        import traceback
-        traceback.print_exc()
-        return False
+                        if matched_keys:
+                            for key in matched_keys:
+                                existing = stocks_by_key[key]
+                                # Update with CrewAI analysis but preserve source/date/price
+                                preserved = {
+                                    'source': existing.get('source'),
+                                    'recommendedDate': existing.get('recommendedDate'),
+                                    'initialPrice': existing.get('initialPrice'),
+                                }
+                                # Merge: entry overwrites, then restore preserved
+                                existing.update(entry)
+                                for field, val in preserved.items():
+                                    if val:
+                                        existing[field] = val
+                                existing['lastUpdated'] = today
+                                print(f"    Updated {ticker}|{existing.get('source')} with analysis")
+                        else:
+                            print(f"    Skipping {ticker}: no matching pre-analysis stock found")
+                            
+        except Exception as e:
+            print(f"  Warning: Could not process CrewAI output: {e}")
+    else:
+        print("  WARNING: output/stocks.json was not created by CrewAI")
+    
+    # Fetch historical prices for any stocks missing initialPrice
+    for key, stock in stocks_by_key.items():
+        if not stock.get('initialPrice'):
+            rec_date = stock.get('recommendedDate')
+            ticker = stock.get('ticker')
+            if rec_date and ticker and rec_date < today:
+                print(f"    Fetching historical price for {ticker} @ {rec_date}...")
+                hist_price = get_historical_price(ticker, rec_date)
+                if hist_price:
+                    stock['initialPrice'] = hist_price
+                    print(f"    → ${hist_price}")
+                else:
+                    stock['initialPrice'] = stock.get('price')
+                    print(f"    → Using current price ${stock.get('price')}")
+                time.sleep(0.3)
+            elif stock.get('price'):
+                stock['initialPrice'] = stock['price']
+    
+    # Convert back to list
+    merged_data = list(stocks_by_key.values())
+    
+    # Sort by ticker then source for consistency
+    merged_data.sort(key=lambda x: (x.get('ticker', ''), x.get('source', '')))
+    
+    # Write merged output
+    output_file = OUTPUT_DIR / "stocks.json"
+    output_file.write_text(json.dumps(merged_data, indent=2) + "\n", encoding="utf-8")
+    
+    # Copy to website data folder
+    website_data_file.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy(output_file, website_data_file)
+    print(f"  Merged and copied stocks.json to {website_data_file}")
+    print(f"  Total stocks: {len(merged_data)}")
+    return True
 
 
 def main():
