@@ -1,30 +1,50 @@
 [
   {
-    "videoId": "9L0l96jONw4",
-    "title": "Unilever seems to be finding a path to (dividend) growth.",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/9L0l96jONw4/maxresdefault.jpg",
+    "videoId": "L3utKVFTRuY",
+    "title": "Dividend Portfolio Update January '26",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/L3utKVFTRuY/maxresdefault.jpg",
+    "channelId": "leven-van-dividend",
+    "channelName": "Leven van Dividend",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Leven provides a portfolio update, discussing recent buys, sells, and overall investment strategy.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "VAFP573HvcY",
+    "title": "Wolters Kluwer and Ahold interesting after price drops",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/VAFP573HvcY/maxresdefault.jpg",
     "channelId": "leven-van-dividend",
     "channelName": "Leven van Dividend",
     "tickersMentioned": [
-      "UL"
+      "WKL",
+      "AD"
     ],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
     "sentiment": "pending",
     "titleSentiment": "neutral",
-    "summary": "Leven discusses dividend investing strategies and income-generating stocks.",
+    "summary": "Leven analyzes WKL, AD and shares investment perspectives on these companies.",
     "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: UL",
+      "\ud83d\udcca Stocks mentioned: WKL, AD",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "pk2nll2yWHA",
-    "title": "YouTube income in the JGPI ETF",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/pk2nll2yWHA/maxresdefault.jpg",
+    "videoId": "tkXSooFh87Q",
+    "title": "DCA Tuesday - Buy KPN and explain strong dividend growth.",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/tkXSooFh87Q/maxresdefault.jpg",
     "channelId": "leven-van-dividend",
     "channelName": "Leven van Dividend",
     "tickersMentioned": [],
@@ -32,115 +52,75 @@
     "tickersRecommended": [],
     "tickersCautioned": [],
     "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Leven shares market analysis and investment insights in this episode.",
+    "titleSentiment": "bullish",
+    "summary": "Leven covers AI-related investment opportunities and which companies may benefit from AI growth.",
     "keyInsights": [
       "\ud83d\udcfa General market/investing discussion",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "fl6Rrpv-oDM",
-    "title": "DCA Tuesday - More Vopak and new milestone reached!",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/fl6Rrpv-oDM/maxresdefault.jpg",
-    "channelId": "leven-van-dividend",
-    "channelName": "Leven van Dividend",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Leven shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "QvC2_HDRrvM",
-    "title": "SoFi Is About To Blow Everyone's Mind",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/QvC2_HDRrvM/maxresdefault.jpg",
+    "videoId": "0547qV7-oBY",
+    "title": "Time to CASH OUT! 4 Stocks to SELL Before Earnings!",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/0547qV7-oBY/maxresdefault.jpg",
     "channelId": "couch-investor",
     "channelName": "CouchInvestor",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "CouchInvestor shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "pSJkeUk_NRg",
-    "title": "The Real Reason Markets Hate This Stock Right Now",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/pSJkeUk_NRg/maxresdefault.jpg",
-    "channelId": "couch-investor",
-    "channelName": "CouchInvestor",
-    "tickersMentioned": [
-      "NOW"
-    ],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "CouchInvestor analyzes NOW and shares investment perspectives on these companies.",
-    "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: NOW",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "vMtRhTWcSks",
-    "title": "1 Extremely Profitable Growth Stock To Buy or Stay Away",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/vMtRhTWcSks/maxresdefault.jpg",
-    "channelId": "couch-investor",
-    "channelName": "CouchInvestor",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "CouchInvestor shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "RDgn1ZH0G1c",
-    "title": "The Next Stock Market Crash is Coming! (I\u2019M READY)",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/RDgn1ZH0G1c/maxresdefault.jpg",
-    "channelId": "everything-money",
-    "channelName": "Everything Money",
     "tickersMentioned": [],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
     "sentiment": "pending",
     "titleSentiment": "bearish",
-    "summary": "Everything shares market analysis and investment insights in this episode.",
+    "summary": "CouchInvestor shares market analysis and investment insights in this episode.",
     "keyInsights": [
       "\u26a0\ufe0f Title suggests caution",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "7Gzp_4t3zlw",
-    "title": "Best 3 ETF Portfolio for Simple Investing in 2026",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/7Gzp_4t3zlw/maxresdefault.jpg",
+    "videoId": "Iw7OEJmQ_ow",
+    "title": "SoFi Stock: What A Joke!",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/Iw7OEJmQ_ow/maxresdefault.jpg",
+    "channelId": "couch-investor",
+    "channelName": "CouchInvestor",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "CouchInvestor shares market analysis and investment insights in this episode.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "FwJO7L2JFaU",
+    "title": "These Stocks Are Getting Crushed! Here's Why",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/FwJO7L2JFaU/maxresdefault.jpg",
+    "channelId": "couch-investor",
+    "channelName": "CouchInvestor",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "CouchInvestor shares market analysis and investment insights in this episode.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "5QzBnkDpm-k",
+    "title": "\u201cThis Time It\u2019s Different\u201d Stock Market Millionaires Will Be Made!",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/5QzBnkDpm-k/maxresdefault.jpg",
     "channelId": "everything-money",
     "channelName": "Everything Money",
     "tickersMentioned": [],
@@ -149,19 +129,95 @@
     "tickersCautioned": [],
     "sentiment": "pending",
     "titleSentiment": "neutral",
-    "summary": "Everything provides a portfolio update, discussing recent buys, sells, and overall investment strategy.",
+    "summary": "Everything covers AI-related investment opportunities and which companies may benefit from AI growth.",
     "keyInsights": [
       "\ud83d\udcfa General market/investing discussion",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "aL3SqKnhzao",
-    "title": "3 Most Undervalued Stocks With Massive Potential (Top Stocks To Buy Now?)",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/aL3SqKnhzao/maxresdefault.jpg",
+    "videoId": "e6ODoQQ8CLM",
+    "title": "This Stock is the \u201cSteal of the Century\u201d",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/e6ODoQQ8CLM/maxresdefault.jpg",
     "channelId": "everything-money",
     "channelName": "Everything Money",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Everything shares market analysis and investment insights in this episode.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "TURDHE0PHEA",
+    "title": "The Biggest Trap In Investing History Has Just Been Set",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/TURDHE0PHEA/maxresdefault.jpg",
+    "channelId": "everything-money",
+    "channelName": "Everything Money",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Everything shares market analysis and investment insights in this episode.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "PsVerw7-cuM",
+    "title": "The Attacks Against My Favorite High Dividend ETF Are Pathetic",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/PsVerw7-cuM/maxresdefault.jpg",
+    "channelId": "dividend-bull",
+    "channelName": "Dividend Bull",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Dividend covers AI-related investment opportunities and which companies may benefit from AI growth.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "-oneFs3JhpI",
+    "title": "This 12% Dividend Stock Has Income Growth",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/-oneFs3JhpI/maxresdefault.jpg",
+    "channelId": "dividend-bull",
+    "channelName": "Dividend Bull",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Dividend discusses dividend investing strategies and income-generating stocks.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "mOJgh6uflQk",
+    "title": "Revealed: 10 BEST Stocks to BUY Now (I'm Buying!)",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/mOJgh6uflQk/maxresdefault.jpg",
+    "channelId": "fired-up-wealth",
+    "channelName": "FiredUpWealth",
     "tickersMentioned": [
       "NOW"
     ],
@@ -172,9 +228,68 @@
     "tickersCautioned": [],
     "sentiment": "pending",
     "titleSentiment": "bullish",
-    "summary": "Everything analyzes NOW and shares investment perspectives on these companies.",
+    "summary": "FiredUpWealth discusses stocks being bought, mentioning NOW. Investment thesis and portfolio strategy shared.",
     "keyInsights": [
       "\ud83d\uded2 Title suggests buying: NOW",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "eAT1PB-DOHY",
+    "title": "I Just Bought a NEW STOCK ($60,000 spent)",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/eAT1PB-DOHY/maxresdefault.jpg",
+    "channelId": "financial-education",
+    "channelName": "Financial Education",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "bullish",
+    "summary": "Financial shares which stocks are being bought and the reasoning behind these investment decisions.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "hRWB-Rc19n0",
+    "title": "This stock is a 1 of 1",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/hRWB-Rc19n0/maxresdefault.jpg",
+    "channelId": "financial-education",
+    "channelName": "Financial Education",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Financial shares market analysis and investment insights in this episode.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "C5ptSxxEXFo",
+    "title": "Age 36, Net Worth $40M: Every Single Investment I Own",
+    "publishedAt": "2026-02-01",
+    "thumbnail": "https://img.youtube.com/vi/C5ptSxxEXFo/maxresdefault.jpg",
+    "channelId": "financial-education",
+    "channelName": "Financial Education",
+    "tickersMentioned": [
+      "NET"
+    ],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Financial analyzes NET and shares investment perspectives on these companies.",
+    "keyInsights": [
+      "\ud83d\udcca Stocks mentioned: NET",
       "\u23f3 Full analysis pending"
     ]
   },
@@ -192,25 +307,6 @@
     "sentiment": "pending",
     "titleSentiment": "neutral",
     "summary": "Dividend discusses dividend investing strategies and income-generating stocks.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "XF3YaQTzxOc",
-    "title": "The REIT Boom is Here",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/XF3YaQTzxOc/maxresdefault.jpg",
-    "channelId": "dividend-bull",
-    "channelName": "Dividend Bull",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Dividend shares market analysis and investment insights in this episode.",
     "keyInsights": [
       "\ud83d\udcfa General market/investing discussion",
       "\u23f3 Full analysis pending"
@@ -240,44 +336,6 @@
     ]
   },
   {
-    "videoId": "LCgOD_JndyI",
-    "title": "I Might have a New Banger Stock to Buy",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/LCgOD_JndyI/maxresdefault.jpg",
-    "channelId": "financial-education",
-    "channelName": "Financial Education",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "bullish",
-    "summary": "Financial shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "YnIhU8buVqM",
-    "title": "They are SELLING America",
-    "publishedAt": "2026-01-25",
-    "thumbnail": "https://img.youtube.com/vi/YnIhU8buVqM/maxresdefault.jpg",
-    "channelId": "financial-education",
-    "channelName": "Financial Education",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "bearish",
-    "summary": "Financial shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\u26a0\ufe0f Title suggests caution",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
     "videoId": "Fn4bLpoHoH0",
     "title": "4 Compounding Machines To Buy Now",
     "publishedAt": "2026-01-18",
@@ -301,25 +359,6 @@
     ]
   },
   {
-    "videoId": "7QKojt6AR1E",
-    "title": "Dividend Cuts Are Likely For These High Yield Dividend Stocks",
-    "publishedAt": "2026-01-18",
-    "thumbnail": "https://img.youtube.com/vi/7QKojt6AR1E/maxresdefault.jpg",
-    "channelId": "dividend-bull",
-    "channelName": "Dividend Bull",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Dividend discusses dividend investing strategies and income-generating stocks.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
     "videoId": "aNmEB3U6qJw",
     "title": "Revealed: 7 Best Stocks to Buy Now According to Seeking Alpha",
     "publishedAt": "2026-01-18",
@@ -337,48 +376,6 @@
     "sentiment": "pending",
     "titleSentiment": "bullish",
     "summary": "FiredUpWealth analyzes NOW and shares investment perspectives on these companies.",
-    "keyInsights": [
-      "\ud83d\uded2 Title suggests buying: NOW",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "TAoUWYB3l7w",
-    "title": "I went all in today",
-    "publishedAt": "2026-01-18",
-    "thumbnail": "https://img.youtube.com/vi/TAoUWYB3l7w/maxresdefault.jpg",
-    "channelId": "financial-education",
-    "channelName": "Financial Education",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Financial shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "yQtqZFlJM7A",
-    "title": "5 BEST Stocks to BUY Now (I'M BUYING)",
-    "publishedAt": "2026-01-11",
-    "thumbnail": "https://img.youtube.com/vi/yQtqZFlJM7A/maxresdefault.jpg",
-    "channelId": "fired-up-wealth",
-    "channelName": "FiredUpWealth",
-    "tickersMentioned": [
-      "NOW"
-    ],
-    "tickersBought": [
-      "NOW"
-    ],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "bullish",
-    "summary": "FiredUpWealth discusses stocks being bought, mentioning NOW. Investment thesis and portfolio strategy shared.",
     "keyInsights": [
       "\ud83d\uded2 Title suggests buying: NOW",
       "\u23f3 Full analysis pending"
