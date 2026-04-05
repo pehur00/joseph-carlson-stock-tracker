@@ -3,13 +3,13 @@
     "category": "Growth",
     "ticker": "AAPL",
     "name": "Apple Inc.",
-    "price": 248.8,
+    "price": 255.92,
     "initialPrice": 270.97,
     "recommendedDate": "2025-12-22",
     "dcf": {
-      "conservative": "210-230",
-      "base": "240-260",
-      "aggressive": "260-280"
+      "conservative": "220-240",
+      "base": "240-270",
+      "aggressive": "270-300"
     },
     "fcfQuality": 5,
     "roicStrength": 4,
@@ -18,7 +18,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-03-29",
+    "lastUpdated": "2026-04-05",
     "source": "CouchInvestor",
     "sourceDetails": {
       "channelId": "couch-investor",
@@ -34,13 +34,13 @@
     "category": "Growth",
     "ticker": "AAPL",
     "name": "Apple Inc.",
-    "price": 248.8,
+    "price": 255.92,
     "initialPrice": 234.35,
     "recommendedDate": "2025-09-10",
     "dcf": {
-      "conservative": "210-230",
-      "base": "240-260",
-      "aggressive": "260-280"
+      "conservative": "220-240",
+      "base": "240-270",
+      "aggressive": "270-300"
     },
     "fcfQuality": 5,
     "roicStrength": 4,
@@ -49,7 +49,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-03-29",
+    "lastUpdated": "2026-04-05",
     "source": "The Joseph Carlson Show",
     "sourceDetails": {
       "channelId": "joseph-carlson",
@@ -65,22 +65,22 @@
     "category": "Growth",
     "ticker": "ADBE",
     "name": "Adobe Inc.",
-    "price": 234.84,
+    "price": 242.92,
     "initialPrice": 317.52,
     "recommendedDate": "2025-11-27",
     "dcf": {
-      "conservative": "200-220",
-      "base": "220-240",
-      "aggressive": "240-260"
+      "conservative": "210-230",
+      "base": "230-255",
+      "aggressive": "255-270"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
     "revenueDurability": 4,
-    "balanceSheetStrength": 4,
+    "balanceSheetStrength": 3,
     "insiderActivity": 3,
     "valueRank": 3,
-    "expectedReturn": 4,
-    "lastUpdated": "2026-03-29",
+    "expectedReturn": 3,
+    "lastUpdated": "2026-04-05",
     "source": "CouchInvestor",
     "sourceDetails": {
       "channelId": "couch-investor",
@@ -96,22 +96,22 @@
     "category": "Growth",
     "ticker": "ADBE",
     "name": "Adobe Inc.",
-    "price": 234.84,
+    "price": 242.92,
     "initialPrice": 335.35,
     "recommendedDate": "2025-11-05",
     "dcf": {
-      "conservative": "200-220",
-      "base": "220-240",
-      "aggressive": "240-260"
+      "conservative": "210-230",
+      "base": "230-255",
+      "aggressive": "255-270"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
     "revenueDurability": 4,
-    "balanceSheetStrength": 4,
+    "balanceSheetStrength": 3,
     "insiderActivity": 3,
     "valueRank": 3,
-    "expectedReturn": 4,
-    "lastUpdated": "2026-03-29",
+    "expectedReturn": 3,
+    "lastUpdated": "2026-04-05",
     "source": "The Joseph Carlson Show",
     "sourceDetails": {
       "channelId": "joseph-carlson",
@@ -126,23 +126,23 @@
   {
     "category": "Growth",
     "ticker": "AMD",
-    "name": "Advanced Micro Devices, Inc.",
-    "price": 201.99,
+    "name": "Advanced Micro Devices",
+    "price": 217.5,
     "initialPrice": 206.13,
     "recommendedDate": "2025-11-26",
     "dcf": {
       "conservative": "180-200",
-      "base": "200-220",
-      "aggressive": "220-240"
+      "base": "200-240",
+      "aggressive": "240-260"
     },
-    "fcfQuality": 4,
+    "fcfQuality": 3,
     "roicStrength": 3,
     "revenueDurability": 3,
     "balanceSheetStrength": 4,
-    "insiderActivity": 3,
+    "insiderActivity": 4,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-03-29",
+    "lastUpdated": "2026-04-05",
     "source": "FiredUpWealth",
     "sourceDetails": {
       "channelId": "fired-up-wealth",
@@ -157,14 +157,14 @@
   {
     "category": "Growth",
     "ticker": "AMZN",
-    "name": "Amazon.com, Inc.",
-    "price": 199.34,
+    "name": "Amazon.com Inc.",
+    "price": 209.77,
     "initialPrice": 228.43,
     "recommendedDate": "2025-12-22",
     "dcf": {
-      "conservative": "170-190",
-      "base": "190-210",
-      "aggressive": "210-230"
+      "conservative": "180-200",
+      "base": "200-230",
+      "aggressive": "230-250"
     },
     "fcfQuality": 4,
     "roicStrength": 3,
@@ -173,7 +173,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-03-29",
+    "lastUpdated": "2026-04-05",
     "source": "CouchInvestor",
     "sourceDetails": {
       "channelId": "couch-investor",
@@ -188,14 +188,14 @@
   {
     "category": "Growth",
     "ticker": "AMZN",
-    "name": "Amazon.com, Inc.",
-    "price": 199.34,
+    "name": "Amazon.com Inc.",
+    "price": 209.77,
     "initialPrice": 232.38,
     "recommendedDate": "2025-12-04",
     "dcf": {
-      "conservative": "170-190",
-      "base": "190-210",
-      "aggressive": "210-230"
+      "conservative": "180-200",
+      "base": "200-230",
+      "aggressive": "230-250"
     },
     "fcfQuality": 4,
     "roicStrength": 3,
@@ -204,7 +204,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-03-29",
+    "lastUpdated": "2026-04-05",
     "source": "FiredUpWealth",
     "sourceDetails": {
       "channelId": "fired-up-wealth",
@@ -219,14 +219,14 @@
   {
     "category": "Growth",
     "ticker": "AMZN",
-    "name": "Amazon.com, Inc.",
-    "price": 199.34,
+    "name": "Amazon.com Inc.",
+    "price": 209.77,
     "initialPrice": 238.24,
     "recommendedDate": "2025-09-10",
     "dcf": {
-      "conservative": "170-190",
-      "base": "190-210",
-      "aggressive": "210-230"
+      "conservative": "180-200",
+      "base": "200-230",
+      "aggressive": "230-250"
     },
     "fcfQuality": 4,
     "roicStrength": 3,
@@ -235,7 +235,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-03-29",
+    "lastUpdated": "2026-04-05",
     "source": "The Joseph Carlson Show",
     "sourceDetails": {
       "channelId": "joseph-carlson",
@@ -502,22 +502,22 @@
     "category": "Growth",
     "ticker": "GOOGL",
     "name": "Alphabet Inc.",
-    "price": 301.0,
+    "price": 295.77,
     "initialPrice": 323.44,
     "recommendedDate": "2025-11-26",
     "dcf": {
-      "conservative": "270-290",
-      "base": "290-310",
-      "aggressive": "310-330"
+      "conservative": "250-270",
+      "base": "270-310",
+      "aggressive": "310-340"
     },
     "fcfQuality": 5,
     "roicStrength": 4,
     "revenueDurability": 5,
-    "balanceSheetStrength": 4,
+    "balanceSheetStrength": 5,
     "insiderActivity": 3,
-    "valueRank": 4,
+    "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-04-05",
     "source": "FiredUpWealth",
     "sourceDetails": {
       "channelId": "fired-up-wealth",
@@ -533,22 +533,22 @@
     "category": "Growth",
     "ticker": "GOOGL",
     "name": "Alphabet Inc.",
-    "price": 301.0,
+    "price": 295.77,
     "initialPrice": 314.89,
     "recommendedDate": "2025-12-01",
     "dcf": {
-      "conservative": "270-290",
-      "base": "290-310",
-      "aggressive": "310-330"
+      "conservative": "250-270",
+      "base": "270-310",
+      "aggressive": "310-340"
     },
     "fcfQuality": 5,
     "roicStrength": 4,
     "revenueDurability": 5,
-    "balanceSheetStrength": 4,
+    "balanceSheetStrength": 5,
     "insiderActivity": 3,
-    "valueRank": 4,
+    "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-03-22",
+    "lastUpdated": "2026-04-05",
     "source": "The Joseph Carlson Show",
     "sourceDetails": {
       "channelId": "joseph-carlson",
