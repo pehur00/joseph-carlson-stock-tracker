@@ -3,13 +3,13 @@
     "category": "Growth",
     "ticker": "AAPL",
     "name": "Apple Inc.",
-    "price": 308.82,
+    "price": 291.13,
     "initialPrice": 270.97,
     "recommendedDate": "2025-12-22",
     "dcf": {
-      "conservative": "250-280",
-      "base": "290-320",
-      "aggressive": "320-350"
+      "conservative": "240-260",
+      "base": "270-290",
+      "aggressive": "300-320"
     },
     "fcfQuality": 5,
     "roicStrength": 4,
@@ -18,7 +18,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
     "source": "CouchInvestor",
     "sourceDetails": {
       "channelId": "couch-investor",
@@ -34,13 +34,13 @@
     "category": "Growth",
     "ticker": "AAPL",
     "name": "Apple Inc.",
-    "price": 308.82,
+    "price": 291.13,
     "initialPrice": 234.35,
     "recommendedDate": "2025-09-10",
     "dcf": {
-      "conservative": "250-280",
-      "base": "290-320",
-      "aggressive": "320-350"
+      "conservative": "240-260",
+      "base": "270-290",
+      "aggressive": "300-320"
     },
     "fcfQuality": 5,
     "roicStrength": 4,
@@ -49,7 +49,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
     "source": "The Joseph Carlson Show",
     "sourceDetails": {
       "channelId": "joseph-carlson",
@@ -65,22 +65,22 @@
     "category": "Growth",
     "ticker": "AD",
     "name": "Array Digital Infrastructure, Inc.",
-    "price": 50.67,
+    "price": 40.76,
     "initialPrice": 50.02,
     "recommendedDate": "2026-05-17",
     "dcf": {
-      "conservative": "30-40",
-      "base": "40-55",
-      "aggressive": "55-65"
+      "conservative": "30-35",
+      "base": "36-42",
+      "aggressive": "43-45"
     },
     "fcfQuality": 3,
-    "roicStrength": 2,
+    "roicStrength": 3,
     "revenueDurability": 2,
     "balanceSheetStrength": 2,
     "insiderActivity": 1,
     "valueRank": 3,
     "expectedReturn": 3,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
     "source": "Leven van Dividend",
     "sourceDetails": {
       "channelId": "leven-van-dividend",
@@ -96,13 +96,13 @@
     "category": "Growth",
     "ticker": "ADBE",
     "name": "Adobe Inc.",
-    "price": 244.76,
+    "price": 204.02,
     "initialPrice": 317.52,
     "recommendedDate": "2025-11-27",
     "dcf": {
-      "conservative": "200-220",
-      "base": "230-250",
-      "aggressive": "250-270"
+      "conservative": "170-185",
+      "base": "190-210",
+      "aggressive": "215-225"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
@@ -111,7 +111,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
     "source": "CouchInvestor",
     "sourceDetails": {
       "channelId": "couch-investor",
@@ -127,13 +127,13 @@
     "category": "Growth",
     "ticker": "ADBE",
     "name": "Adobe Inc.",
-    "price": 244.76,
+    "price": 204.02,
     "initialPrice": 335.35,
     "recommendedDate": "2025-11-05",
     "dcf": {
-      "conservative": "200-220",
-      "base": "230-250",
-      "aggressive": "250-270"
+      "conservative": "170-185",
+      "base": "190-210",
+      "aggressive": "215-225"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
@@ -142,7 +142,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
     "source": "The Joseph Carlson Show",
     "sourceDetails": {
       "channelId": "joseph-carlson",
@@ -158,13 +158,13 @@
     "category": "Growth",
     "ticker": "AMD",
     "name": "Advanced Micro Devices, Inc.",
-    "price": 467.51,
-    "initialPrice": 206.13,
-    "recommendedDate": "2025-11-26",
+    "price": 511.57,
+    "initialPrice": 516.1,
+    "recommendedDate": "2026-05-31",
     "dcf": {
-      "conservative": "350-400",
-      "base": "420-460",
-      "aggressive": "460-500"
+      "conservative": "400-450",
+      "base": "460-490",
+      "aggressive": "500-525"
     },
     "fcfQuality": 4,
     "roicStrength": 4,
@@ -173,7 +173,38 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
+    "source": "Everything Money",
+    "sourceDetails": {
+      "channelId": "everything-money",
+      "firstMentioned": "2026-05-31",
+      "videos": [
+        "AMD vs Nvidia: The Best Stock To Buy Isn\u2019t Who You Think "
+      ],
+      "isBought": true,
+      "addedOn": "2026-05-31"
+    }
+  },
+  {
+    "category": "Growth",
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices, Inc.",
+    "price": 511.57,
+    "initialPrice": 206.13,
+    "recommendedDate": "2025-11-26",
+    "dcf": {
+      "conservative": "400-450",
+      "base": "460-490",
+      "aggressive": "500-525"
+    },
+    "fcfQuality": 4,
+    "roicStrength": 4,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 4,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 4,
+    "lastUpdated": "2026-06-14",
     "source": "FiredUpWealth",
     "sourceDetails": {
       "channelId": "fired-up-wealth",
@@ -189,13 +220,13 @@
     "category": "Growth",
     "ticker": "AMZN",
     "name": "Amazon.com, Inc.",
-    "price": 266.32,
+    "price": 238.55,
     "initialPrice": 228.43,
     "recommendedDate": "2025-12-22",
     "dcf": {
-      "conservative": "200-230",
-      "base": "250-280",
-      "aggressive": "280-300"
+      "conservative": "180-200",
+      "base": "210-230",
+      "aggressive": "240-260"
     },
     "fcfQuality": 3,
     "roicStrength": 3,
@@ -204,7 +235,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
     "source": "CouchInvestor",
     "sourceDetails": {
       "channelId": "couch-investor",
@@ -220,13 +251,13 @@
     "category": "Growth",
     "ticker": "AMZN",
     "name": "Amazon.com, Inc.",
-    "price": 266.32,
+    "price": 238.55,
     "initialPrice": 232.38,
     "recommendedDate": "2025-12-04",
     "dcf": {
-      "conservative": "200-230",
-      "base": "250-280",
-      "aggressive": "280-300"
+      "conservative": "180-200",
+      "base": "210-230",
+      "aggressive": "240-260"
     },
     "fcfQuality": 3,
     "roicStrength": 3,
@@ -235,7 +266,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
     "source": "FiredUpWealth",
     "sourceDetails": {
       "channelId": "fired-up-wealth",
@@ -251,13 +282,13 @@
     "category": "Growth",
     "ticker": "AMZN",
     "name": "Amazon.com, Inc.",
-    "price": 266.32,
+    "price": 238.55,
     "initialPrice": 238.24,
     "recommendedDate": "2025-09-10",
     "dcf": {
-      "conservative": "200-230",
-      "base": "250-280",
-      "aggressive": "280-300"
+      "conservative": "180-200",
+      "base": "210-230",
+      "aggressive": "240-260"
     },
     "fcfQuality": 3,
     "roicStrength": 3,
@@ -266,7 +297,7 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 4,
-    "lastUpdated": "2026-05-24",
+    "lastUpdated": "2026-06-14",
     "source": "The Joseph Carlson Show",
     "sourceDetails": {
       "channelId": "joseph-carlson",
@@ -1122,6 +1153,37 @@
   {
     "category": "Growth",
     "ticker": "NVDA",
+    "name": "NVDA (pending analysis)",
+    "price": 0.0,
+    "initialPrice": 211.14,
+    "recommendedDate": "2026-05-31",
+    "dcf": {
+      "conservative": "0-0",
+      "base": "0-0",
+      "aggressive": "0-0"
+    },
+    "fcfQuality": 3,
+    "roicStrength": 3,
+    "revenueDurability": 3,
+    "balanceSheetStrength": 3,
+    "insiderActivity": 3,
+    "valueRank": 3,
+    "expectedReturn": 3,
+    "lastUpdated": "2026-05-31",
+    "source": "Everything Money",
+    "sourceDetails": {
+      "channelId": "everything-money",
+      "firstMentioned": "2026-05-31",
+      "videos": [
+        "AMD vs Nvidia: The Best Stock To Buy Isn\u2019t Who You Think "
+      ],
+      "isBought": true,
+      "addedOn": "2026-05-31"
+    }
+  },
+  {
+    "category": "Growth",
+    "ticker": "NVDA",
     "name": "NVIDIA Corporation",
     "price": 225.32,
     "initialPrice": 177.82,
@@ -1744,11 +1806,11 @@
   },
   {
     "category": "Growth",
-    "ticker": "AMD",
-    "name": "AMD (pending analysis)",
+    "ticker": "JNJ",
+    "name": "JNJ (pending analysis)",
     "price": 0.0,
-    "initialPrice": 516.1,
-    "recommendedDate": "2026-05-31",
+    "initialPrice": 228.39,
+    "recommendedDate": "2026-06-21",
     "dcf": {
       "conservative": "0-0",
       "base": "0-0",
@@ -1761,47 +1823,16 @@
     "insiderActivity": 3,
     "valueRank": 3,
     "expectedReturn": 3,
-    "lastUpdated": "2026-05-31",
-    "source": "Everything Money",
+    "lastUpdated": "2026-06-21",
+    "source": "Leven van Dividend",
     "sourceDetails": {
-      "channelId": "everything-money",
-      "firstMentioned": "2026-05-31",
+      "channelId": "leven-van-dividend",
+      "firstMentioned": "2026-06-21",
       "videos": [
-        "AMD vs Nvidia: The Best Stock To Buy Isn\u2019t Who You Think "
+        "DCA Tuesday - Buy Vopak, discuss JNJ"
       ],
       "isBought": true,
-      "addedOn": "2026-05-31"
-    }
-  },
-  {
-    "category": "Growth",
-    "ticker": "NVDA",
-    "name": "NVDA (pending analysis)",
-    "price": 0.0,
-    "initialPrice": 211.14,
-    "recommendedDate": "2026-05-31",
-    "dcf": {
-      "conservative": "0-0",
-      "base": "0-0",
-      "aggressive": "0-0"
-    },
-    "fcfQuality": 3,
-    "roicStrength": 3,
-    "revenueDurability": 3,
-    "balanceSheetStrength": 3,
-    "insiderActivity": 3,
-    "valueRank": 3,
-    "expectedReturn": 3,
-    "lastUpdated": "2026-05-31",
-    "source": "Everything Money",
-    "sourceDetails": {
-      "channelId": "everything-money",
-      "firstMentioned": "2026-05-31",
-      "videos": [
-        "AMD vs Nvidia: The Best Stock To Buy Isn\u2019t Who You Think "
-      ],
-      "isBought": true,
-      "addedOn": "2026-05-31"
+      "addedOn": "2026-06-21"
     }
   }
 ]
