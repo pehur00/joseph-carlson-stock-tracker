@@ -1,14 +1,12 @@
 [
   {
-    "videoId": "OwN-xXrpG_g",
-    "title": "Why Dividend Investing Is So Great!",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/OwN-xXrpG_g/maxresdefault.jpg",
+    "videoId": "Kr8NOQ1AcoU",
+    "title": "Dividend snowballing with a.s.r.",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/Kr8NOQ1AcoU/maxresdefault.jpg",
     "channelId": "leven-van-dividend",
     "channelName": "Leven van Dividend",
-    "tickersMentioned": [
-      "SO"
-    ],
+    "tickersMentioned": [],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
@@ -16,15 +14,15 @@
     "titleSentiment": "neutral",
     "summary": "Leven discusses dividend investing strategies and income-generating stocks.",
     "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: SO",
+      "\ud83d\udcfa General market/investing discussion",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "4_37Ic0KBsA",
-    "title": "DCA Tuesday - Hoarding Ahold stock",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/4_37Ic0KBsA/maxresdefault.jpg",
+    "videoId": "MfZEsVW0u5I",
+    "title": "DCA Tuesday - Ahold celebration",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/MfZEsVW0u5I/maxresdefault.jpg",
     "channelId": "leven-van-dividend",
     "channelName": "Leven van Dividend",
     "tickersMentioned": [
@@ -44,54 +42,37 @@
     ]
   },
   {
-    "videoId": "eHsuQC5HX4Y",
-    "title": "Reviewing Zoetis, Sanofi, Acomo and VICI",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/eHsuQC5HX4Y/maxresdefault.jpg",
+    "videoId": "NpNCkl6GuJs",
+    "title": "Discussing Broadcom, Nike, and Altria",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/NpNCkl6GuJs/maxresdefault.jpg",
     "channelId": "leven-van-dividend",
     "channelName": "Leven van Dividend",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Leven shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "yfE0vGmHq1M",
-    "title": "This Might Be the Easiest Buy in the Market Right Now",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/yfE0vGmHq1M/maxresdefault.jpg",
-    "channelId": "couch-investor",
-    "channelName": "CouchInvestor",
     "tickersMentioned": [
-      "NOW"
+      "NKE",
+      "AVGO"
     ],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
     "sentiment": "pending",
-    "titleSentiment": "bullish",
-    "summary": "CouchInvestor analyzes NOW and shares investment perspectives on these companies.",
+    "titleSentiment": "neutral",
+    "summary": "Leven analyzes NKE, AVGO and shares investment perspectives on these companies.",
     "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: NOW",
+      "\ud83d\udcca Stocks mentioned: NKE, AVGO",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "UgR-uVQnPzc",
-    "title": "If You Own Any AI Stock, Nvidia's Earnings Just Changed Something",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/UgR-uVQnPzc/maxresdefault.jpg",
+    "videoId": "a4OaYSTBeX8",
+    "title": "Broadcom and Snowflake Just Reported. Here's What It Means for Every AI Stock",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/a4OaYSTBeX8/maxresdefault.jpg",
     "channelId": "couch-investor",
     "channelName": "CouchInvestor",
     "tickersMentioned": [
-      "NVDA"
+      "SNOW",
+      "AVGO"
     ],
     "tickersBought": [],
     "tickersRecommended": [],
@@ -100,36 +81,53 @@
     "titleSentiment": "neutral",
     "summary": "CouchInvestor covers AI-related investment opportunities and which companies may benefit from AI growth.",
     "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: NVDA",
+      "\ud83d\udcca Stocks mentioned: SNOW, AVGO",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "cR8PUEiA-d0",
-    "title": "My Biggest Concern Going Into Nvidia's Earnings Tomorrow",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/cR8PUEiA-d0/maxresdefault.jpg",
+    "videoId": "MCOEsAJHBCY",
+    "title": "Why I\u2019m Doubling Down on This Hated Stock",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/MCOEsAJHBCY/maxresdefault.jpg",
     "channelId": "couch-investor",
     "channelName": "CouchInvestor",
-    "tickersMentioned": [
-      "NVDA"
-    ],
+    "tickersMentioned": [],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
     "sentiment": "pending",
     "titleSentiment": "neutral",
-    "summary": "CouchInvestor analyzes NVDA and shares investment perspectives on these companies.",
+    "summary": "CouchInvestor shares market analysis and investment insights in this episode.",
     "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: NVDA",
+      "\ud83d\udcfa General market/investing discussion",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "Thh3YXGGE-0",
-    "title": "2008 Is Happening Again And Nobody Sees It",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/Thh3YXGGE-0/maxresdefault.jpg",
+    "videoId": "eLvMIY72QtY",
+    "title": "I Just Bought $7,200 More of These 4 Stocks",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/eLvMIY72QtY/maxresdefault.jpg",
+    "channelId": "couch-investor",
+    "channelName": "CouchInvestor",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "bullish",
+    "summary": "CouchInvestor shares which stocks are being bought and the reasoning behind these investment decisions.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "qk65PqDcNLo",
+    "title": "This Only Happens Once Every Decade",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/qk65PqDcNLo/maxresdefault.jpg",
     "channelId": "everything-money",
     "channelName": "Everything Money",
     "tickersMentioned": [],
@@ -138,52 +136,174 @@
     "tickersCautioned": [],
     "sentiment": "pending",
     "titleSentiment": "neutral",
-    "summary": "Everything covers AI-related investment opportunities and which companies may benefit from AI growth.",
+    "summary": "Everything shares market analysis and investment insights in this episode.",
     "keyInsights": [
       "\ud83d\udcfa General market/investing discussion",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "TT74xgcAf6c",
-    "title": "If You're Still a Nvidia Shareholder Right Now... Get Ready! $NVDA",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/TT74xgcAf6c/maxresdefault.jpg",
+    "videoId": "khsibvljMCI",
+    "title": "Is AMD Stock the Next Nvidia?",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/khsibvljMCI/maxresdefault.jpg",
     "channelId": "everything-money",
     "channelName": "Everything Money",
     "tickersMentioned": [
       "NVDA",
-      "NOW"
+      "AMD"
     ],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
     "sentiment": "pending",
     "titleSentiment": "neutral",
-    "summary": "Everything analyzes NVDA, NOW and shares investment perspectives on these companies.",
+    "summary": "Everything analyzes NVDA, AMD and shares investment perspectives on these companies.",
     "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: NVDA, NOW",
+      "\ud83d\udcca Stocks mentioned: NVDA, AMD",
       "\u23f3 Full analysis pending"
     ]
   },
   {
-    "videoId": "X7JImb1o85U",
-    "title": "If You're an Amazon Shareholder\u2026 Get Ready! $AMZN",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/X7JImb1o85U/maxresdefault.jpg",
+    "videoId": "WCR-gPwxrfE",
+    "title": "The ETF to BUY That Beats QQQ (And Why It Wins in 2026)",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/WCR-gPwxrfE/maxresdefault.jpg",
     "channelId": "everything-money",
     "channelName": "Everything Money",
     "tickersMentioned": [
-      "AMZN"
+      "QQQ"
+    ],
+    "tickersBought": [
+      "QQQ"
+    ],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "bullish",
+    "summary": "Everything analyzes QQQ and shares investment perspectives on these companies.",
+    "keyInsights": [
+      "\ud83d\uded2 Title suggests buying: QQQ",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "R5NuEqgvPpM",
+    "title": "I\u2019m Buying This 11% Dividend That\u2019s 116% Covered",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/R5NuEqgvPpM/maxresdefault.jpg",
+    "channelId": "dividend-bull",
+    "channelName": "Dividend Bull",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "bullish",
+    "summary": "Dividend shares which stocks are being bought and the reasoning behind these investment decisions.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "JqEMrV7jzH8",
+    "title": "How Recession Proof Are The NEOS ETFs? SPYI, QQQI and Others",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/JqEMrV7jzH8/maxresdefault.jpg",
+    "channelId": "dividend-bull",
+    "channelName": "Dividend Bull",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Dividend shares market analysis and investment insights in this episode.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "j_eZaqbE5aA",
+    "title": "4 BEST Stocks to BUY Now (I'M BUYING)!",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/j_eZaqbE5aA/maxresdefault.jpg",
+    "channelId": "fired-up-wealth",
+    "channelName": "FiredUpWealth",
+    "tickersMentioned": [
+      "NOW"
+    ],
+    "tickersBought": [
+      "NOW"
+    ],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "bullish",
+    "summary": "FiredUpWealth discusses stocks being bought, mentioning NOW. Investment thesis and portfolio strategy shared.",
+    "keyInsights": [
+      "\ud83d\uded2 Title suggests buying: NOW",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "zsXVrnL4hWQ",
+    "title": "CRDO Stock: Is It Time to Buy or Sell? Credo Technology Stock Analysis!",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/zsXVrnL4hWQ/maxresdefault.jpg",
+    "channelId": "fired-up-wealth",
+    "channelName": "FiredUpWealth",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "FiredUpWealth shares market analysis and investment insights in this episode.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "ys4-KxMcmmI",
+    "title": "This Stock is the next Nvidia\u203c\ufe0f",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/ys4-KxMcmmI/maxresdefault.jpg",
+    "channelId": "financial-education",
+    "channelName": "Financial Education",
+    "tickersMentioned": [
+      "NVDA"
     ],
     "tickersBought": [],
     "tickersRecommended": [],
     "tickersCautioned": [],
     "sentiment": "pending",
     "titleSentiment": "neutral",
-    "summary": "Everything analyzes AMZN and shares investment perspectives on these companies.",
+    "summary": "Financial analyzes NVDA and shares investment perspectives on these companies.",
     "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: AMZN",
+      "\ud83d\udcca Stocks mentioned: NVDA",
+      "\u23f3 Full analysis pending"
+    ]
+  },
+  {
+    "videoId": "Q6G8pXFkKLk",
+    "title": "4 Stocks to Go ALL IN September 2026\u203c\ufe0f",
+    "publishedAt": "2026-09-06",
+    "thumbnail": "https://img.youtube.com/vi/Q6G8pXFkKLk/maxresdefault.jpg",
+    "channelId": "financial-education",
+    "channelName": "Financial Education",
+    "tickersMentioned": [],
+    "tickersBought": [],
+    "tickersRecommended": [],
+    "tickersCautioned": [],
+    "sentiment": "pending",
+    "titleSentiment": "neutral",
+    "summary": "Financial shares market analysis and investment insights in this episode.",
+    "keyInsights": [
+      "\ud83d\udcfa General market/investing discussion",
       "\u23f3 Full analysis pending"
     ]
   },
@@ -230,27 +350,6 @@
     ]
   },
   {
-    "videoId": "hMprXab8x8E",
-    "title": "The End of NVIDIA\u2019s Monopoly? OpenAI\u2019s New Secret Weapon",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/hMprXab8x8E/maxresdefault.jpg",
-    "channelId": "fired-up-wealth",
-    "channelName": "FiredUpWealth",
-    "tickersMentioned": [
-      "NVDA"
-    ],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "FiredUpWealth covers AI-related investment opportunities and which companies may benefit from AI growth.",
-    "keyInsights": [
-      "\ud83d\udcca Stocks mentioned: NVDA",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
     "videoId": "icM65FPixWU",
     "title": "This 1 Stock will SOAR now\u203c\ufe0f",
     "publishedAt": "2026-08-30",
@@ -272,63 +371,6 @@
     ]
   },
   {
-    "videoId": "Xe-ShzCXgtQ",
-    "title": "This Stock will make us RICH\ud83e\udd11AF",
-    "publishedAt": "2026-08-30",
-    "thumbnail": "https://img.youtube.com/vi/Xe-ShzCXgtQ/maxresdefault.jpg",
-    "channelId": "financial-education",
-    "channelName": "Financial Education",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Financial shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "AICXuU9GSPc",
-    "title": "Is SATA's 13% Daily Dividend Safe?",
-    "publishedAt": "2026-08-23",
-    "thumbnail": "https://img.youtube.com/vi/AICXuU9GSPc/maxresdefault.jpg",
-    "channelId": "dividend-bull",
-    "channelName": "Dividend Bull",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Dividend covers AI-related investment opportunities and which companies may benefit from AI growth.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "cAEpnfP760w",
-    "title": "The Market is About to Do Something Insane Next Week\u2026",
-    "publishedAt": "2026-08-23",
-    "thumbnail": "https://img.youtube.com/vi/cAEpnfP760w/maxresdefault.jpg",
-    "channelId": "financial-education",
-    "channelName": "Financial Education",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "neutral",
-    "summary": "Financial shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
     "videoId": "TzujlLwXO44",
     "title": "9 Stocks That Could Make You Rich",
     "publishedAt": "2026-08-16",
@@ -342,44 +384,6 @@
     "sentiment": "pending",
     "titleSentiment": "neutral",
     "summary": "The shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\ud83d\udcfa General market/investing discussion",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "lhPdOfabGQg",
-    "title": "NEOS ETFs Has Been Sold. Here's What it Means for SPYI, QQQI",
-    "publishedAt": "2026-08-16",
-    "thumbnail": "https://img.youtube.com/vi/lhPdOfabGQg/maxresdefault.jpg",
-    "channelId": "dividend-bull",
-    "channelName": "Dividend Bull",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "bearish",
-    "summary": "Dividend shares market analysis and investment insights in this episode.",
-    "keyInsights": [
-      "\u26a0\ufe0f Title suggests caution",
-      "\u23f3 Full analysis pending"
-    ]
-  },
-  {
-    "videoId": "mKWIerd0elE",
-    "title": "The Secret to Buying Stocks at All-Time Highs (It's Not What You Think)",
-    "publishedAt": "2026-08-09",
-    "thumbnail": "https://img.youtube.com/vi/mKWIerd0elE/maxresdefault.jpg",
-    "channelId": "fired-up-wealth",
-    "channelName": "FiredUpWealth",
-    "tickersMentioned": [],
-    "tickersBought": [],
-    "tickersRecommended": [],
-    "tickersCautioned": [],
-    "sentiment": "pending",
-    "titleSentiment": "bullish",
-    "summary": "FiredUpWealth shares which stocks are being bought and the reasoning behind these investment decisions.",
     "keyInsights": [
       "\ud83d\udcfa General market/investing discussion",
       "\u23f3 Full analysis pending"
